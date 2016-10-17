@@ -1,0 +1,1162 @@
+com.artifex.mupdf.LinkInfo
+com.artifex.mupdf.MuPDFActivity
+com.artifex.mupdf.MuPDFActivity: void onCreate(android.os.Bundle)
+com.artifex.mupdf.MuPDFActivity: void onDestroy()
+com.artifex.mupdf.MuPDFActivity$4
+com.artifex.mupdf.MuPDFActivity$LinkState: com.artifex.mupdf.MuPDFActivity$LinkState[] values()
+com.artifex.mupdf.MuPDFActivity$LinkState: com.artifex.mupdf.MuPDFActivity$LinkState valueOf(java.lang.String)
+com.artifex.mupdf.MuPDFCore
+com.artifex.mupdf.MuPDFCore: int openFile(java.lang.String)
+com.artifex.mupdf.MuPDFCore: int countPagesInternal()
+com.artifex.mupdf.MuPDFCore: void gotoPageInternal(int)
+com.artifex.mupdf.MuPDFCore: float getPageWidth()
+com.artifex.mupdf.MuPDFCore: float getPageHeight()
+com.artifex.mupdf.MuPDFCore: void drawPage(android.graphics.Bitmap,int,int,int,int,int,int)
+com.artifex.mupdf.MuPDFCore: android.graphics.RectF[] searchPage(java.lang.String)
+com.artifex.mupdf.MuPDFCore: int getPageLink(int,float,float)
+com.artifex.mupdf.MuPDFCore: com.artifex.mupdf.LinkInfo[] getPageLinksInternal(int)
+com.artifex.mupdf.MuPDFCore: com.artifex.mupdf.OutlineItem[] getOutlineInternal()
+com.artifex.mupdf.MuPDFCore: boolean hasOutlineInternal()
+com.artifex.mupdf.MuPDFCore: boolean needsPasswordInternal()
+com.artifex.mupdf.MuPDFCore: boolean authenticatePasswordInternal(java.lang.String)
+com.artifex.mupdf.MuPDFCore: void destroying()
+com.artifex.mupdf.MuPDFPageView
+com.artifex.mupdf.MuPDFPageViewNew
+com.artifex.mupdf.OpaqueImageView
+com.artifex.mupdf.OpaqueImageViewNew
+com.artifex.mupdf.OutlineActivity
+com.artifex.mupdf.OutlineActivity: void onCreate(android.os.Bundle)
+com.artifex.mupdf.PageView
+com.artifex.mupdf.PageView$2
+com.artifex.mupdf.PageViewNew
+com.artifex.mupdf.PageViewNew$2
+com.artifex.mupdf.ReaderView
+com.artifex.mupdf.ReaderView: ReaderView(android.content.Context,android.util.AttributeSet)
+com.artifex.mupdf.ReaderView: ReaderView(android.content.Context,android.util.AttributeSet,int)
+com.artifex.mupdf.ReaderViewEnbed
+com.artifex.mupdf.ReaderViewEnbed: ReaderViewEnbed(android.content.Context,android.util.AttributeSet)
+com.artifex.mupdf.ReaderViewEnbed: ReaderViewEnbed(android.content.Context,android.util.AttributeSet,int)
+com.artifex.mupdf.ReaderViewEnbed$LinkState: com.artifex.mupdf.ReaderViewEnbed$LinkState[] values()
+com.artifex.mupdf.ReaderViewEnbed$LinkState: com.artifex.mupdf.ReaderViewEnbed$LinkState valueOf(java.lang.String)
+com.mouee.android.BeginActivity
+com.mouee.android.BeginActivity: void onCreate(android.os.Bundle)
+com.mouee.android.MoueeActivity
+com.mouee.android.MoueeActivity: boolean isShelves
+com.mouee.android.MoueeActivity: MoueeActivity()
+com.mouee.android.MoueeActivity: void onCreate(android.os.Bundle)
+com.mouee.android.MoueeActivity: void onConfigurationChanged(android.content.res.Configuration)
+com.mouee.android.MoueeActivity: void onWindowFocusChanged(boolean)
+com.mouee.android.MoueeActivity: void onBackPressed()
+com.mouee.android.MoueeActivity: void onSdCarsBookStart(java.lang.String)
+com.mouee.android.MoueeReader
+com.mouee.android.MoueeReader: void show(android.content.Context,java.lang.String)
+com.mouee.android.PDFPageViewerActivity
+com.mouee.android.PDFPageViewerActivity: void onCreate(android.os.Bundle)
+com.mouee.android.PDFViewerActivity
+com.mouee.android.PDFViewerActivity: void onCreate(android.os.Bundle)
+com.mouee.android.R$attr
+com.mouee.android.R$attr: int backAlpha
+com.mouee.android.R$attr: int backColor
+com.mouee.android.R$attr: int backgroundColor
+com.mouee.android.R$attr: int curlMode
+com.mouee.android.R$attr: int curlSpeed
+com.mouee.android.R$attr: int enableDebugMode
+com.mouee.android.R$attr: int initialEdgeOffset
+com.mouee.android.R$attr: int keywords
+com.mouee.android.R$attr: int primaryTextColor
+com.mouee.android.R$attr: int refreshInterval
+com.mouee.android.R$attr: int spots
+com.mouee.android.R$attr: int titleColor
+com.mouee.android.R$attr: int updateRate
+com.mouee.android.R$color
+com.mouee.android.R$color: int all_black
+com.mouee.android.R$color: int all_white
+com.mouee.android.R$color: int bar
+com.mouee.android.R$color: int canvas
+com.mouee.android.R$color: int listbg
+com.mouee.android.R$color: int listselect
+com.mouee.android.R$drawable
+com.mouee.android.R$drawable: int arrowup
+com.mouee.android.R$drawable: int audio_play
+com.mouee.android.R$drawable: int audio_stop
+com.mouee.android.R$drawable: int black
+com.mouee.android.R$drawable: int blue
+com.mouee.android.R$drawable: int book
+com.mouee.android.R$drawable: int btngarally
+com.mouee.android.R$drawable: int busy
+com.mouee.android.R$drawable: int camer_b
+com.mouee.android.R$drawable: int camer_f
+com.mouee.android.R$drawable: int center
+com.mouee.android.R$drawable: int darkdenim3
+com.mouee.android.R$drawable: int defaultbackground
+com.mouee.android.R$drawable: int folderopen
+com.mouee.android.R$drawable: int home
+com.mouee.android.R$drawable: int ic_arrow_left
+com.mouee.android.R$drawable: int ic_arrow_right
+com.mouee.android.R$drawable: int ic_cancel
+com.mouee.android.R$drawable: int ic_hl_link
+com.mouee.android.R$drawable: int ic_launcher
+com.mouee.android.R$drawable: int ic_link
+com.mouee.android.R$drawable: int ic_list
+com.mouee.android.R$drawable: int ic_magnifying_glass
+com.mouee.android.R$drawable: int ic_nolink
+com.mouee.android.R$drawable: int icon
+com.mouee.android.R$drawable: int ios_media_pause
+com.mouee.android.R$drawable: int ios_media_play
+com.mouee.android.R$drawable: int ios_media_zoomout
+com.mouee.android.R$drawable: int left
+com.mouee.android.R$drawable: int media_control_bg
+com.mouee.android.R$drawable: int media_player_seekbar_selector
+com.mouee.android.R$drawable: int page_num
+com.mouee.android.R$drawable: int player_seekbar_thumbnail
+com.mouee.android.R$drawable: int right
+com.mouee.android.R$drawable: int scan_disable
+com.mouee.android.R$drawable: int scan_enable
+com.mouee.android.R$drawable: int serifs
+com.mouee.android.R$drawable: int skip
+com.mouee.android.R$drawable: int slider
+com.mouee.android.R$drawable: int tbp
+com.mouee.android.R$drawable: int tiled_background
+com.mouee.android.R$drawable: int transparent
+com.mouee.android.R$drawable: int white
+com.mouee.android.R$id
+com.mouee.android.R$id: int Dynamic
+com.mouee.android.R$id: int Simple
+com.mouee.android.R$id: int back
+com.mouee.android.R$id: int backnew
+com.mouee.android.R$id: int browserItemIcon
+com.mouee.android.R$id: int browserItemText
+com.mouee.android.R$id: int browserTabHost
+com.mouee.android.R$id: int btn_next
+com.mouee.android.R$id: int btn_nextnew
+com.mouee.android.R$id: int btn_prev
+com.mouee.android.R$id: int btn_prevnew
+com.mouee.android.R$id: int cancel
+com.mouee.android.R$id: int docNameText
+com.mouee.android.R$id: int gallery1
+com.mouee.android.R$id: int goToButton
+com.mouee.android.R$id: int gotopage
+com.mouee.android.R$id: int imageButton1
+com.mouee.android.R$id: int lowerButtons
+com.mouee.android.R$id: int mediaplayer_btnAction
+com.mouee.android.R$id: int mediaplayer_leftText
+com.mouee.android.R$id: int mediaplayer_rightText
+com.mouee.android.R$id: int mediaplayer_seekBar
+com.mouee.android.R$id: int outlineButton
+com.mouee.android.R$id: int page
+com.mouee.android.R$id: int pageNumber
+com.mouee.android.R$id: int pageNumberTextEdit
+com.mouee.android.R$id: int pageSlider
+com.mouee.android.R$id: int pagenumber
+com.mouee.android.R$id: int pdf_toolbar
+com.mouee.android.R$id: int pdf_toolbarnew
+com.mouee.android.R$id: int pdf_view
+com.mouee.android.R$id: int pdf_viewnew
+com.mouee.android.R$id: int relativeLayout1
+com.mouee.android.R$id: int searchBack
+com.mouee.android.R$id: int searchButton
+com.mouee.android.R$id: int searchForward
+com.mouee.android.R$id: int searchText
+com.mouee.android.R$id: int switcher
+com.mouee.android.R$id: int testButton
+com.mouee.android.R$id: int title
+com.mouee.android.R$id: int topBar
+com.mouee.android.R$id: int topBar2
+com.mouee.android.R$layout
+com.mouee.android.R$layout: int browser
+com.mouee.android.R$layout: int browseritem
+com.mouee.android.R$layout: int buttons
+com.mouee.android.R$layout: int garallary
+com.mouee.android.R$layout: int gotopage
+com.mouee.android.R$layout: int main
+com.mouee.android.R$layout: int medialayout
+com.mouee.android.R$layout: int moueebook
+com.mouee.android.R$layout: int outline_entry
+com.mouee.android.R$layout: int pdf
+com.mouee.android.R$layout: int pdfpage
+com.mouee.android.R$layout: int picker_entry
+com.mouee.android.R$layout: int testmask
+com.mouee.android.R$raw
+com.mouee.android.R$raw: int flip
+com.mouee.android.R$string
+com.mouee.android.R$string: int app_name
+com.mouee.android.R$string: int cancel
+com.mouee.android.R$string: int enter_password
+com.mouee.android.R$string: int hello
+com.mouee.android.R$string: int link_control
+com.mouee.android.R$string: int no_media_hint
+com.mouee.android.R$string: int no_media_warning
+com.mouee.android.R$string: int open_failed
+com.mouee.android.R$string: int outline_title
+com.mouee.android.R$string: int picker_title
+com.mouee.android.R$string: int search_backwards
+com.mouee.android.R$string: int search_document
+com.mouee.android.R$string: int search_forwards
+com.mouee.android.R$string: int searching_
+com.mouee.android.R$string: int text_not_found
+com.mouee.android.R$styleable
+com.mouee.android.R$styleable: int[] AdView
+com.mouee.android.R$styleable: int AdView_backAlpha
+com.mouee.android.R$styleable: int AdView_backColor
+com.mouee.android.R$styleable: int AdView_titleColor
+com.mouee.android.R$styleable: int[] Gallery1
+com.mouee.android.R$styleable: int Gallery1_android_galleryItemBackground
+com.mouee.android.R$styleable: int[] PageCurlView
+com.mouee.android.R$styleable: int PageCurlView_curlMode
+com.mouee.android.R$styleable: int PageCurlView_curlSpeed
+com.mouee.android.R$styleable: int PageCurlView_enableDebugMode
+com.mouee.android.R$styleable: int PageCurlView_initialEdgeOffset
+com.mouee.android.R$styleable: int PageCurlView_updateRate
+com.mouee.android.R$styleable: int[] TogglePrefAttrs
+com.mouee.android.R$styleable: int TogglePrefAttrs_android_preferenceLayoutChild
+com.mouee.android.R$styleable: int[] cn_domob_android_ads_DomobAdView
+com.mouee.android.R$styleable: int cn_domob_android_ads_DomobAdView_backgroundColor
+com.mouee.android.R$styleable: int cn_domob_android_ads_DomobAdView_keywords
+com.mouee.android.R$styleable: int cn_domob_android_ads_DomobAdView_primaryTextColor
+com.mouee.android.R$styleable: int cn_domob_android_ads_DomobAdView_refreshInterval
+com.mouee.android.R$styleable: int cn_domob_android_ads_DomobAdView_spots
+com.mouee.android.animation.catmullroom.CatMullRoomAction: long serialVersionUID
+com.mouee.android.animation.catmullroom.GdxRuntimeException: long serialVersionUID
+com.mouee.android.animation.catmullroom.Matrix3: long serialVersionUID
+com.mouee.android.animation.catmullroom.Matrix4: long serialVersionUID
+com.mouee.android.animation.catmullroom.Quaternion: long serialVersionUID
+com.mouee.android.animation.catmullroom.Vector3: long serialVersionUID
+com.mouee.android.core.utils.BitmapManageUtil$1: long serialVersionUID
+com.mouee.android.test.CopyOfTestClipVIew
+com.mouee.android.test.DrawMask
+com.mouee.android.test.DrawMask: void onCreate(android.os.Bundle)
+com.mouee.android.test.DrawMask: void onClick(android.content.DialogInterface,int)
+com.mouee.android.test.ExpandableList1
+com.mouee.android.test.ExpandableList1: void onCreate(android.os.Bundle)
+com.mouee.android.test.ExpandableList1: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+com.mouee.android.test.Mask
+com.mouee.android.test.MyImageView
+com.mouee.android.test.Myfloatview
+com.mouee.android.test.PageViewActivity
+com.mouee.android.test.PageViewActivity: void onCreate(android.os.Bundle)
+com.mouee.android.test.Test3DFlip
+com.mouee.android.test.Test3DFlip: void onCreate(android.os.Bundle)
+com.mouee.android.test.TestAnimation
+com.mouee.android.test.TestAnimation: void onCreate(android.os.Bundle)
+com.mouee.android.test.TestBookDecoder
+com.mouee.android.test.TestBookDecoder: void onCreate(android.os.Bundle)
+com.mouee.android.test.TestClip
+com.mouee.android.test.TestClip: void onCreate(android.os.Bundle)
+com.mouee.android.test.TestClipVIew
+com.mouee.android.test.TestExpandableList
+com.mouee.android.test.TestExpandableList: void onCreate(android.os.Bundle)
+com.mouee.android.test.TestGif
+com.mouee.android.test.TestGif: void onCreate(android.os.Bundle)
+com.mouee.android.test.TestImageView
+com.mouee.android.test.TestImageView: void onCreate(android.os.Bundle)
+com.mouee.android.test.TestImageViewRotateActivity
+com.mouee.android.test.TestImageViewRotateActivity: void onCreate(android.os.Bundle)
+com.mouee.android.test.TestOpenFile
+com.mouee.android.test.TestOpenFile: void onCreate(android.os.Bundle)
+com.mouee.android.test.TestScrollTextView
+com.mouee.android.test.TestScrollTextView: void onCreate(android.os.Bundle)
+com.mouee.android.test.TestSurfaceView
+com.mouee.android.test.TestSurfaceView: void onCreate(android.os.Bundle)
+com.mouee.android.test.TestSurfaceView$MyView
+com.mouee.android.test.TestTransformMatrixActivity
+com.mouee.android.test.TestTransformMatrixActivity: void onCreate(android.os.Bundle)
+com.mouee.android.test.TestTransformMatrixActivity$TransformMatrixView
+com.mouee.android.test.TestVideo
+com.mouee.android.test.TestVideo: void onCreate(android.os.Bundle)
+com.mouee.android.test.TestViewPage
+com.mouee.android.test.VideoTest
+com.mouee.android.test.VideoTest: void onCreate(android.os.Bundle)
+com.mouee.android.test.VideoTest: void onPrepared(android.media.MediaPlayer)
+com.mouee.android.test.VideoTest: void onCompletion(android.media.MediaPlayer)
+com.mouee.android.test.VideoTest: void onBufferingUpdate(android.media.MediaPlayer,int)
+com.mouee.android.test.ViewPage1
+com.mouee.android.test.flip.AbstractPageWidget
+com.mouee.android.test.flip.PageWidget
+com.mouee.android.test.flip.PageWidget1
+com.mouee.android.view.ViewPage
+com.mouee.android.view.component.AudioComponent
+com.mouee.android.view.component.HTMLComponent
+com.mouee.android.view.component.ImageComponent
+com.mouee.android.view.component.ImageGifComponent
+com.mouee.android.view.component.ImageWipeComponent
+com.mouee.android.view.component.ImageWipeGifComponent
+com.mouee.android.view.component.ImageZoomComponent
+com.mouee.android.view.component.ImageZoomComponent: ImageZoomComponent(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.component.MoueeVideoView
+com.mouee.android.view.component.PDFDocumentViewComponent
+com.mouee.android.view.component.PDFDocumentViewComponentMU
+com.mouee.android.view.component.ScrollTextViewComponent
+com.mouee.android.view.component.ScrollTextViewComponentEN
+com.mouee.android.view.component.VideoComponent
+com.mouee.android.view.component.WebComponent
+com.mouee.android.view.component.moudle.CatalogModel
+com.mouee.android.view.component.moudle.GalleryComponent
+com.mouee.android.view.component.moudle.Mouee3DViewFlipper
+com.mouee.android.view.component.moudle.Mouee3DViewFlipper: Mouee3DViewFlipper(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.component.moudle.MoueeCarouselImageUIComponent
+com.mouee.android.view.component.moudle.MoueeHorRightUIComponent
+com.mouee.android.view.component.moudle.MoueeVerBottomUIComponent
+com.mouee.android.view.component.moudle.MoueeViewFlipper
+com.mouee.android.view.component.moudle.MoueeViewFlipper: MoueeViewFlipper(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.component.moudle.MoueeViewFlipperInter
+com.mouee.android.view.component.moudle.MoueeViewFlipperInter: MoueeViewFlipperInter(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.component.moudle.MoueeViewFlipperVerticle
+com.mouee.android.view.component.moudle.MoueeViewFlipperVerticle: MoueeViewFlipperVerticle(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.component.moudle.MoueeViewFlipperVerticleInter
+com.mouee.android.view.component.moudle.MoueeViewFlipperVerticleInter: MoueeViewFlipperVerticleInter(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.component.moudle.common.CommonImageView
+com.mouee.android.view.component.moudle.enbedpage.AdapterViewPage
+com.mouee.android.view.component.moudle.imageseq.Mouee3DViewHorFlipper
+com.mouee.android.view.component.moudle.imageseq.Mouee3DViewHorFlipper: Mouee3DViewHorFlipper(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.component.moudle.imageseq.Mouee3DViewHorFlipperS
+com.mouee.android.view.component.moudle.imageseq.Mouee3DViewHorFlipperS: Mouee3DViewHorFlipperS(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.component.moudle.imageseq.Mouee3DViewVerFlipper
+com.mouee.android.view.component.moudle.imageseq.Mouee3DViewVerFlipper: Mouee3DViewVerFlipper(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.component.moudle.slide.HorizontalSlide
+com.mouee.android.view.component.moudle.slide.HorizontalSlideClick
+com.mouee.android.view.component.moudle.slide.HorizontalSlideClickThree
+com.mouee.android.view.component.moudle.slide.HorizontialListView
+com.mouee.android.view.component.moudle.slide.HorizontialListView: HorizontialListView(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.component.moudle.slide.VerticleSlide
+com.mouee.android.view.component.moudle.slide.VerticleSlideClick
+com.mouee.android.view.component.moudle.slide.VerticleSlideClickThree
+com.mouee.android.view.component.moudle.surface.SurfaceViewImageSeq
+com.mouee.android.view.component.moudle.surface.SurfaceViewImageSeq: SurfaceViewImageSeq(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.component.textview.TextSurfaceView
+com.mouee.android.view.component.textview.TextViewComponent
+com.mouee.android.view.component.textview.TextViewComponentEN
+com.mouee.android.view.component.zoom.ImageViewTouch
+com.mouee.android.view.component.zoom.ImageViewTouch: ImageViewTouch(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.component.zoom.ImageViewTouchBase
+com.mouee.android.view.component.zoom.ImageViewTouchBase: ImageViewTouchBase(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.component.zoom.ImageViewTouchBase$Command: com.mouee.android.view.component.zoom.ImageViewTouchBase$Command[] values()
+com.mouee.android.view.component.zoom.ImageViewTouchBase$Command: com.mouee.android.view.component.zoom.ImageViewTouchBase$Command valueOf(java.lang.String)
+com.mouee.android.view.compositeview.AdapterViewPage
+com.mouee.android.view.compositeview.AdapterViewPage: AdapterViewPage(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.compositeview.AdapterViewPage: AdapterViewPage(android.content.Context,android.util.AttributeSet,int)
+com.mouee.android.view.compositeview.AdapterViewPageVer
+com.mouee.android.view.compositeview.AdapterViewPageVer: AdapterViewPageVer(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.compositeview.AdapterViewPageVer: AdapterViewPageVer(android.content.Context,android.util.AttributeSet,int)
+com.mouee.android.view.gallary.Galley3D
+com.mouee.android.view.gallary.Galley3D: Galley3D(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.gallary.Galley3D: Galley3D(android.content.Context,android.util.AttributeSet,int)
+com.mouee.android.view.gallary.GalleyCommon
+com.mouee.android.view.gallary.base.AbstractGalley
+com.mouee.android.view.gallary.base.AbstractGalley: AbstractGalley(android.content.Context,android.util.AttributeSet)
+com.mouee.android.view.gallary.base.AbstractGalley: AbstractGalley(android.content.Context,android.util.AttributeSet,int)
+com.mouee.android.view.layout.MoueeRelativeLayout
+com.mouee.android.view.pageflip.AbstractPageFlipView
+com.mouee.android.view.pageflip.PageFlipVerticleView
+com.mouee.android.view.pageflip.PageFlipView
+com.mouee.android.view.pageflip.PageWidget
+com.mouee.android.view.pageflip.TurnPageFlipView
+com.mouee.android.view.subpage.CompositePageReaderView
+com.mouee.android.view.subpage.ViewPage
+com.mouee.android.view.widget.image.CommonImageView
+com.mouee.android.view.widget.multilevellist.MultiExpandablelistview
+com.mouee.android.view.widget.treeview.TestExpandableList
+org.vudroid.core.DecodeService
+org.vudroid.core.DecodeService: void setContainerView(android.view.View)
+org.vudroid.core.DecodeService: void open(java.lang.String)
+org.vudroid.core.DecodeService: void decodePage(java.lang.Object,int,org.vudroid.core.DecodeService$DecodeCallback)
+org.vudroid.core.DecodeService: void decodePage(java.lang.Object,int,org.vudroid.core.DecodeService$DecodeCallback,float,android.graphics.RectF)
+org.vudroid.core.DecodeService: void stopDecoding(java.lang.Object)
+org.vudroid.core.DecodeService: int getEffectivePagesWidth()
+org.vudroid.core.DecodeService: int getEffectivePagesHeight()
+org.vudroid.core.DecodeService: int getEffectivePagesWidth(int)
+org.vudroid.core.DecodeService: int getEffectivePagesHeight(int)
+org.vudroid.core.DecodeService: int getPageCount()
+org.vudroid.core.DecodeService: int getPageWidth(int)
+org.vudroid.core.DecodeService: int getPageHeight(int)
+org.vudroid.core.DecodeService: android.graphics.Bitmap getBitmap(int,int,int)
+org.vudroid.core.DecodeService: void recycle()
+org.vudroid.core.DecodeService$DecodeCallback
+org.vudroid.core.DecodeService$DecodeCallback: void decodeComplete(android.graphics.Bitmap,float)
+org.vudroid.core.DecodeServiceBase
+org.vudroid.core.DecodeServiceBase: int PAGE_POOL_SIZE
+org.vudroid.core.DecodeServiceBase: org.vudroid.core.codec.CodecContext codecContext
+org.vudroid.core.DecodeServiceBase: android.view.View containerView
+org.vudroid.core.DecodeServiceBase: org.vudroid.core.codec.CodecDocument document
+org.vudroid.core.DecodeServiceBase: java.util.concurrent.ExecutorService executorService
+org.vudroid.core.DecodeServiceBase: java.lang.String DECODE_SERVICE
+org.vudroid.core.DecodeServiceBase: java.util.Map decodingFutures
+org.vudroid.core.DecodeServiceBase: java.util.HashMap pages
+org.vudroid.core.DecodeServiceBase: java.util.Queue pageEvictionQueue
+org.vudroid.core.DecodeServiceBase: boolean isRecycled
+org.vudroid.core.DecodeServiceBase: DecodeServiceBase(org.vudroid.core.codec.CodecContext)
+org.vudroid.core.DecodeServiceBase: void setContainerView(android.view.View)
+org.vudroid.core.DecodeServiceBase: void open(java.lang.String)
+org.vudroid.core.DecodeServiceBase: android.graphics.Bitmap getBitmap(int,int,int)
+org.vudroid.core.DecodeServiceBase: void decodePage(java.lang.Object,int,org.vudroid.core.DecodeService$DecodeCallback)
+org.vudroid.core.DecodeServiceBase: void decodePage(java.lang.Object,int,org.vudroid.core.DecodeService$DecodeCallback,float,android.graphics.RectF)
+org.vudroid.core.DecodeServiceBase: void stopDecoding(java.lang.Object)
+org.vudroid.core.DecodeServiceBase: void performDecode(org.vudroid.core.DecodeServiceBase$DecodeTask)
+org.vudroid.core.DecodeServiceBase: int getScaledHeight(org.vudroid.core.DecodeServiceBase$DecodeTask,org.vudroid.core.codec.CodecPage,float)
+org.vudroid.core.DecodeServiceBase: int getScaledWidth(org.vudroid.core.DecodeServiceBase$DecodeTask,org.vudroid.core.codec.CodecPage,float)
+org.vudroid.core.DecodeServiceBase: int getScaledHeight(org.vudroid.core.codec.CodecPage,float)
+org.vudroid.core.DecodeServiceBase: int getScaledWidth(org.vudroid.core.codec.CodecPage,float)
+org.vudroid.core.DecodeServiceBase: float calculateScale(org.vudroid.core.codec.CodecPage)
+org.vudroid.core.DecodeServiceBase: void finishDecoding(org.vudroid.core.DecodeServiceBase$DecodeTask,android.graphics.Bitmap)
+org.vudroid.core.DecodeServiceBase: void preloadNextPage(int)
+org.vudroid.core.DecodeServiceBase: org.vudroid.core.codec.CodecPage getPage(int)
+org.vudroid.core.DecodeServiceBase: void waitForDecode(org.vudroid.core.codec.CodecPage)
+org.vudroid.core.DecodeServiceBase: int getTargetWidth()
+org.vudroid.core.DecodeServiceBase: int getEffectivePagesWidth()
+org.vudroid.core.DecodeServiceBase: int getEffectivePagesHeight()
+org.vudroid.core.DecodeServiceBase: int getEffectivePagesWidth(int)
+org.vudroid.core.DecodeServiceBase: int getEffectivePagesHeight(int)
+org.vudroid.core.DecodeServiceBase: int getPageWidth(int)
+org.vudroid.core.DecodeServiceBase: int getPageHeight(int)
+org.vudroid.core.DecodeServiceBase: void updateImage(org.vudroid.core.DecodeServiceBase$DecodeTask,android.graphics.Bitmap)
+org.vudroid.core.DecodeServiceBase: boolean isTaskDead(org.vudroid.core.DecodeServiceBase$DecodeTask)
+org.vudroid.core.DecodeServiceBase: int getPageCount()
+org.vudroid.core.DecodeServiceBase: void recycle()
+org.vudroid.core.DecodeServiceBase: void access$0(org.vudroid.core.DecodeServiceBase,org.vudroid.core.DecodeServiceBase$DecodeTask)
+org.vudroid.core.DecodeServiceBase: java.util.HashMap access$1(org.vudroid.core.DecodeServiceBase)
+org.vudroid.core.DecodeServiceBase: org.vudroid.core.codec.CodecDocument access$2(org.vudroid.core.DecodeServiceBase)
+org.vudroid.core.DecodeServiceBase: org.vudroid.core.codec.CodecContext access$3(org.vudroid.core.DecodeServiceBase)
+org.vudroid.core.DecodeServiceBase$1
+org.vudroid.core.DecodeServiceBase$1: org.vudroid.core.DecodeServiceBase this$0
+org.vudroid.core.DecodeServiceBase$1: org.vudroid.core.DecodeServiceBase$DecodeTask val$decodeTask
+org.vudroid.core.DecodeServiceBase$1: DecodeServiceBase$1(org.vudroid.core.DecodeServiceBase,org.vudroid.core.DecodeServiceBase$DecodeTask)
+org.vudroid.core.DecodeServiceBase$1: void run()
+org.vudroid.core.DecodeServiceBase$2
+org.vudroid.core.DecodeServiceBase$2: org.vudroid.core.DecodeServiceBase this$0
+org.vudroid.core.DecodeServiceBase$2: DecodeServiceBase$2(org.vudroid.core.DecodeServiceBase)
+org.vudroid.core.DecodeServiceBase$2: void run()
+org.vudroid.core.DecodeServiceBase$DecodeTask
+org.vudroid.core.DecodeServiceBase$DecodeTask: java.lang.Object decodeKey
+org.vudroid.core.DecodeServiceBase$DecodeTask: int pageNumber
+org.vudroid.core.DecodeServiceBase$DecodeTask: float zoom
+org.vudroid.core.DecodeServiceBase$DecodeTask: org.vudroid.core.DecodeService$DecodeCallback decodeCallback
+org.vudroid.core.DecodeServiceBase$DecodeTask: android.graphics.RectF pageSliceBounds
+org.vudroid.core.DecodeServiceBase$DecodeTask: org.vudroid.core.DecodeServiceBase this$0
+org.vudroid.core.DecodeServiceBase$DecodeTask: DecodeServiceBase$DecodeTask(org.vudroid.core.DecodeServiceBase,int,org.vudroid.core.DecodeService$DecodeCallback,float,java.lang.Object,android.graphics.RectF)
+org.vudroid.core.DecodeServiceBase$DecodeTask: DecodeServiceBase$DecodeTask(org.vudroid.core.DecodeServiceBase,int,org.vudroid.core.DecodeService$DecodeCallback,float,java.lang.Object,android.graphics.RectF,org.vudroid.core.DecodeServiceBase$DecodeTask)
+org.vudroid.core.DecodeServiceBase$DecodeTask: int access$1(org.vudroid.core.DecodeServiceBase$DecodeTask)
+org.vudroid.core.DecodeServiceBase$DecodeTask: float access$2(org.vudroid.core.DecodeServiceBase$DecodeTask)
+org.vudroid.core.DecodeServiceBase$DecodeTask: android.graphics.RectF access$3(org.vudroid.core.DecodeServiceBase$DecodeTask)
+org.vudroid.core.DecodeServiceBase$DecodeTask: org.vudroid.core.DecodeService$DecodeCallback access$4(org.vudroid.core.DecodeServiceBase$DecodeTask)
+org.vudroid.core.DecodeServiceBase$DecodeTask: java.lang.Object access$5(org.vudroid.core.DecodeServiceBase$DecodeTask)
+org.vudroid.core.DocumentView
+org.vudroid.core.DocumentView: org.vudroid.core.models.ZoomModel zoomModel
+org.vudroid.core.DocumentView: org.vudroid.core.models.CurrentPageModel currentPageModel
+org.vudroid.core.DocumentView: org.vudroid.core.models.DecodingProgressModel progressModel
+org.vudroid.core.DocumentView: org.vudroid.core.DecodeService decodeService
+org.vudroid.core.DocumentView: java.util.HashMap pages
+org.vudroid.core.DocumentView: boolean isInitialized
+org.vudroid.core.DocumentView: float lastX
+org.vudroid.core.DocumentView: float lastY
+org.vudroid.core.DocumentView: android.view.VelocityTracker velocityTracker
+org.vudroid.core.DocumentView: android.widget.Scroller scroller
+org.vudroid.core.DocumentView: android.graphics.RectF viewRect
+org.vudroid.core.DocumentView: boolean inZoom
+org.vudroid.core.DocumentView: long lastDownEventTime
+org.vudroid.core.DocumentView: int DOUBLE_TAP_TIME
+org.vudroid.core.DocumentView: org.vudroid.core.multitouch.MultiTouchZoom multiTouchZoom
+org.vudroid.core.DocumentView: boolean isPortrait
+org.vudroid.core.DocumentView: int pageIndex
+org.vudroid.core.DocumentView: int pageCount
+org.vudroid.core.DocumentView: java.io.File cacheDir
+org.vudroid.core.DocumentView: int decodingPage
+org.vudroid.core.DocumentView: android.view.GestureDetector gestureDetector
+org.vudroid.core.DocumentView: java.util.concurrent.locks.ReentrantLock lock
+org.vudroid.core.DocumentView: boolean isChanged
+org.vudroid.core.DocumentView: int SWIPE_MIN_DISTANCE
+org.vudroid.core.DocumentView: int SWIPE_THRESHOLD_VELOCITY
+org.vudroid.core.DocumentView: DocumentView(android.content.Context)
+org.vudroid.core.DocumentView: DocumentView(android.content.Context,android.util.AttributeSet)
+org.vudroid.core.DocumentView: DocumentView(android.content.Context,org.vudroid.core.models.DecodingProgressModel,org.vudroid.core.models.CurrentPageModel)
+org.vudroid.core.DocumentView: void refresh()
+org.vudroid.core.DocumentView: void setProgressModel(org.vudroid.core.models.DecodingProgressModel)
+org.vudroid.core.DocumentView: void setPageModel(org.vudroid.core.models.CurrentPageModel)
+org.vudroid.core.DocumentView: void openDoc(java.lang.String)
+org.vudroid.core.DocumentView: void initMultiTouchZoomIfAvailable(org.vudroid.core.models.ZoomModel)
+org.vudroid.core.DocumentView: void setDecodeService(org.vudroid.core.DecodeService)
+org.vudroid.core.DocumentView: void init()
+org.vudroid.core.DocumentView: void recyle()
+org.vudroid.core.DocumentView: void goToPageImpl(int)
+org.vudroid.core.DocumentView: void onScrollChanged(int,int,int,int)
+org.vudroid.core.DocumentView: void updatePageVisibility()
+org.vudroid.core.DocumentView: void commitZoom()
+org.vudroid.core.DocumentView: void showDocument()
+org.vudroid.core.DocumentView: void changePage(int)
+org.vudroid.core.DocumentView: void goToPage(int)
+org.vudroid.core.DocumentView: int getCurrentPage()
+org.vudroid.core.DocumentView: void zoomChanged(float,float)
+org.vudroid.core.DocumentView: boolean onTouchEvent(android.view.MotionEvent)
+org.vudroid.core.DocumentView: void setLastPosition(android.view.MotionEvent)
+org.vudroid.core.DocumentView: boolean dispatchKeyEvent(android.view.KeyEvent)
+org.vudroid.core.DocumentView: void verticalDpadScroll(int)
+org.vudroid.core.DocumentView: void lineByLineMoveTo(int)
+org.vudroid.core.DocumentView: int getTopLimit()
+org.vudroid.core.DocumentView: int getLeftLimit()
+org.vudroid.core.DocumentView: int getBottomLimit()
+org.vudroid.core.DocumentView: int getRightLimit()
+org.vudroid.core.DocumentView: void scrollTo(int,int)
+org.vudroid.core.DocumentView: android.graphics.RectF getViewRect()
+org.vudroid.core.DocumentView: void computeScroll()
+org.vudroid.core.DocumentView: void onDraw(android.graphics.Canvas)
+org.vudroid.core.DocumentView: void onLayout(boolean,int,int,int,int)
+org.vudroid.core.DocumentView: void invalidatePageSizes()
+org.vudroid.core.DocumentView: void invalidateScroll(float)
+org.vudroid.core.DocumentView: float getScrollScaleRatio()
+org.vudroid.core.DocumentView: void stopScroller()
+org.vudroid.core.DocumentView: void savePage(org.vudroid.core.Page)
+org.vudroid.core.DocumentView: android.graphics.Bitmap loadPage(int)
+org.vudroid.core.DocumentView: void setPortrait(boolean)
+org.vudroid.core.DocumentView: boolean isPortrait()
+org.vudroid.core.DocumentView: void access$0(org.vudroid.core.DocumentView)
+org.vudroid.core.DocumentView: void access$1(org.vudroid.core.DocumentView)
+org.vudroid.core.DocumentView: void access$2(org.vudroid.core.DocumentView,int)
+org.vudroid.core.DocumentView: java.util.HashMap access$3(org.vudroid.core.DocumentView)
+org.vudroid.core.DocumentView$1
+org.vudroid.core.DocumentView$1: org.vudroid.core.DocumentView this$0
+org.vudroid.core.DocumentView$1: DocumentView$1(org.vudroid.core.DocumentView)
+org.vudroid.core.DocumentView$1: void run()
+org.vudroid.core.DocumentView$2
+org.vudroid.core.DocumentView$2: org.vudroid.core.DocumentView this$0
+org.vudroid.core.DocumentView$2: org.vudroid.core.Page val$page
+org.vudroid.core.DocumentView$2: int val$toPage
+org.vudroid.core.DocumentView$2: DocumentView$2(org.vudroid.core.DocumentView,org.vudroid.core.Page,int)
+org.vudroid.core.DocumentView$2: void decodeComplete(android.graphics.Bitmap,float)
+org.vudroid.core.DocumentView$2: org.vudroid.core.DocumentView access$0(org.vudroid.core.DocumentView$2)
+org.vudroid.core.DocumentView$2$1
+org.vudroid.core.DocumentView$2$1: org.vudroid.core.DocumentView$2 this$1
+org.vudroid.core.DocumentView$2$1: DocumentView$2$1(org.vudroid.core.DocumentView$2)
+org.vudroid.core.DocumentView$2$1: void run()
+org.vudroid.core.DocumentView$3
+org.vudroid.core.DocumentView$3: org.vudroid.core.DocumentView this$0
+org.vudroid.core.DocumentView$3: DocumentView$3(org.vudroid.core.DocumentView)
+org.vudroid.core.DocumentView$3: void run()
+org.vudroid.core.DocumentView$4
+org.vudroid.core.DocumentView$4: org.vudroid.core.DocumentView this$0
+org.vudroid.core.DocumentView$4: DocumentView$4(org.vudroid.core.DocumentView)
+org.vudroid.core.DocumentView$4: void run()
+org.vudroid.core.DocumentView$5
+org.vudroid.core.DocumentView$5: org.vudroid.core.DocumentView this$0
+org.vudroid.core.DocumentView$5: DocumentView$5(org.vudroid.core.DocumentView)
+org.vudroid.core.DocumentView$5: void run()
+org.vudroid.core.DocumentView$MyGestureDetector
+org.vudroid.core.DocumentView$MyGestureDetector: org.vudroid.core.DocumentView this$0
+org.vudroid.core.DocumentView$MyGestureDetector: DocumentView$MyGestureDetector(org.vudroid.core.DocumentView)
+org.vudroid.core.DocumentView$MyGestureDetector: boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float)
+org.vudroid.core.DocumentViewNew
+org.vudroid.core.DocumentViewNew: org.vudroid.core.models.ZoomModel zoomModel
+org.vudroid.core.DocumentViewNew: org.vudroid.core.models.CurrentPageModel currentPageModel
+org.vudroid.core.DocumentViewNew: org.vudroid.core.models.DecodingProgressModel progressModel
+org.vudroid.core.DocumentViewNew: org.vudroid.core.DecodeService decodeService
+org.vudroid.core.DocumentViewNew: java.util.HashMap pages
+org.vudroid.core.DocumentViewNew: boolean isInitialized
+org.vudroid.core.DocumentViewNew: float lastX
+org.vudroid.core.DocumentViewNew: float lastY
+org.vudroid.core.DocumentViewNew: android.view.VelocityTracker velocityTracker
+org.vudroid.core.DocumentViewNew: android.widget.Scroller scroller
+org.vudroid.core.DocumentViewNew: android.graphics.RectF viewRect
+org.vudroid.core.DocumentViewNew: boolean inZoom
+org.vudroid.core.DocumentViewNew: long lastDownEventTime
+org.vudroid.core.DocumentViewNew: int DOUBLE_TAP_TIME
+org.vudroid.core.DocumentViewNew: org.vudroid.core.multitouch.MultiTouchZoom multiTouchZoom
+org.vudroid.core.DocumentViewNew: boolean isPortrait
+org.vudroid.core.DocumentViewNew: int pageIndex
+org.vudroid.core.DocumentViewNew: int pageCount
+org.vudroid.core.DocumentViewNew: java.io.File cacheDir
+org.vudroid.core.DocumentViewNew: int decodingPage
+org.vudroid.core.DocumentViewNew: android.view.GestureDetector gestureDetector
+org.vudroid.core.DocumentViewNew: java.util.concurrent.locks.ReentrantLock lock
+org.vudroid.core.DocumentViewNew: boolean isChanged
+org.vudroid.core.DocumentViewNew: boolean isLoading
+org.vudroid.core.DocumentViewNew: boolean testState
+org.vudroid.core.DocumentViewNew: int SWIPE_MIN_DISTANCE
+org.vudroid.core.DocumentViewNew: int SWIPE_THRESHOLD_VELOCITY
+org.vudroid.core.DocumentViewNew: DocumentViewNew(android.content.Context)
+org.vudroid.core.DocumentViewNew: DocumentViewNew(android.content.Context,android.util.AttributeSet)
+org.vudroid.core.DocumentViewNew: DocumentViewNew(android.content.Context,org.vudroid.core.models.DecodingProgressModel,org.vudroid.core.models.CurrentPageModel)
+org.vudroid.core.DocumentViewNew: void refresh()
+org.vudroid.core.DocumentViewNew: void setProgressModel(org.vudroid.core.models.DecodingProgressModel)
+org.vudroid.core.DocumentViewNew: void setPageModel(org.vudroid.core.models.CurrentPageModel)
+org.vudroid.core.DocumentViewNew: void openDoc(java.lang.String)
+org.vudroid.core.DocumentViewNew: void initMultiTouchZoomIfAvailable(org.vudroid.core.models.ZoomModel)
+org.vudroid.core.DocumentViewNew: void setDecodeService(org.vudroid.core.DecodeService)
+org.vudroid.core.DocumentViewNew: void init()
+org.vudroid.core.DocumentViewNew: void recyle()
+org.vudroid.core.DocumentViewNew: void goToPageImpl(int)
+org.vudroid.core.DocumentViewNew: void onScrollChanged(int,int,int,int)
+org.vudroid.core.DocumentViewNew: void updatePageVisibility()
+org.vudroid.core.DocumentViewNew: void commitZoom()
+org.vudroid.core.DocumentViewNew: void showDocument()
+org.vudroid.core.DocumentViewNew: void changePage(int)
+org.vudroid.core.DocumentViewNew: void goToPage(int)
+org.vudroid.core.DocumentViewNew: int getCurrentPage()
+org.vudroid.core.DocumentViewNew: void zoomChanged(float,float)
+org.vudroid.core.DocumentViewNew: boolean onTouchEvent(android.view.MotionEvent)
+org.vudroid.core.DocumentViewNew: void setLastPosition(android.view.MotionEvent)
+org.vudroid.core.DocumentViewNew: boolean dispatchKeyEvent(android.view.KeyEvent)
+org.vudroid.core.DocumentViewNew: void verticalDpadScroll(int)
+org.vudroid.core.DocumentViewNew: void lineByLineMoveTo(int)
+org.vudroid.core.DocumentViewNew: int getTopLimit()
+org.vudroid.core.DocumentViewNew: int getLeftLimit()
+org.vudroid.core.DocumentViewNew: int getBottomLimit()
+org.vudroid.core.DocumentViewNew: int getRightLimit()
+org.vudroid.core.DocumentViewNew: void scrollTo(int,int)
+org.vudroid.core.DocumentViewNew: android.graphics.RectF getViewRect()
+org.vudroid.core.DocumentViewNew: void computeScroll()
+org.vudroid.core.DocumentViewNew: void onDraw(android.graphics.Canvas)
+org.vudroid.core.DocumentViewNew: void onLayout(boolean,int,int,int,int)
+org.vudroid.core.DocumentViewNew: void invalidatePageSizes()
+org.vudroid.core.DocumentViewNew: void invalidateScroll(float)
+org.vudroid.core.DocumentViewNew: float getScrollScaleRatio()
+org.vudroid.core.DocumentViewNew: void stopScroller()
+org.vudroid.core.DocumentViewNew: void savePage(org.vudroid.core.PageNew)
+org.vudroid.core.DocumentViewNew: android.graphics.Bitmap loadPage(int)
+org.vudroid.core.DocumentViewNew: void setPortrait(boolean)
+org.vudroid.core.DocumentViewNew: boolean isPortrait()
+org.vudroid.core.DocumentViewNew: boolean isTestState()
+org.vudroid.core.DocumentViewNew: void setTestState(boolean)
+org.vudroid.core.DocumentViewNew: void access$0(org.vudroid.core.DocumentViewNew)
+org.vudroid.core.DocumentViewNew: void access$1(org.vudroid.core.DocumentViewNew)
+org.vudroid.core.DocumentViewNew: void access$2(org.vudroid.core.DocumentViewNew,int)
+org.vudroid.core.DocumentViewNew: java.util.HashMap access$3(org.vudroid.core.DocumentViewNew)
+org.vudroid.core.DocumentViewNew: void access$4(org.vudroid.core.DocumentViewNew,boolean)
+org.vudroid.core.DocumentViewNew: boolean access$5(org.vudroid.core.DocumentViewNew)
+org.vudroid.core.DocumentViewNew$1
+org.vudroid.core.DocumentViewNew$1: org.vudroid.core.DocumentViewNew this$0
+org.vudroid.core.DocumentViewNew$1: DocumentViewNew$1(org.vudroid.core.DocumentViewNew)
+org.vudroid.core.DocumentViewNew$1: void run()
+org.vudroid.core.DocumentViewNew$2
+org.vudroid.core.DocumentViewNew$2: org.vudroid.core.DocumentViewNew this$0
+org.vudroid.core.DocumentViewNew$2: org.vudroid.core.PageNew val$page
+org.vudroid.core.DocumentViewNew$2: int val$toPage
+org.vudroid.core.DocumentViewNew$2: DocumentViewNew$2(org.vudroid.core.DocumentViewNew,org.vudroid.core.PageNew,int)
+org.vudroid.core.DocumentViewNew$2: void decodeComplete(android.graphics.Bitmap,float)
+org.vudroid.core.DocumentViewNew$2: org.vudroid.core.DocumentViewNew access$0(org.vudroid.core.DocumentViewNew$2)
+org.vudroid.core.DocumentViewNew$2$1
+org.vudroid.core.DocumentViewNew$2$1: org.vudroid.core.DocumentViewNew$2 this$1
+org.vudroid.core.DocumentViewNew$2$1: DocumentViewNew$2$1(org.vudroid.core.DocumentViewNew$2)
+org.vudroid.core.DocumentViewNew$2$1: void run()
+org.vudroid.core.DocumentViewNew$3
+org.vudroid.core.DocumentViewNew$3: org.vudroid.core.DocumentViewNew this$0
+org.vudroid.core.DocumentViewNew$3: DocumentViewNew$3(org.vudroid.core.DocumentViewNew)
+org.vudroid.core.DocumentViewNew$3: void run()
+org.vudroid.core.DocumentViewNew$4
+org.vudroid.core.DocumentViewNew$4: org.vudroid.core.DocumentViewNew this$0
+org.vudroid.core.DocumentViewNew$4: DocumentViewNew$4(org.vudroid.core.DocumentViewNew)
+org.vudroid.core.DocumentViewNew$4: void run()
+org.vudroid.core.DocumentViewNew$5
+org.vudroid.core.DocumentViewNew$5: org.vudroid.core.DocumentViewNew this$0
+org.vudroid.core.DocumentViewNew$5: DocumentViewNew$5(org.vudroid.core.DocumentViewNew)
+org.vudroid.core.DocumentViewNew$5: void run()
+org.vudroid.core.DocumentViewNew$MyGestureDetector
+org.vudroid.core.DocumentViewNew$MyGestureDetector: org.vudroid.core.DocumentViewNew this$0
+org.vudroid.core.DocumentViewNew$MyGestureDetector: DocumentViewNew$MyGestureDetector(org.vudroid.core.DocumentViewNew)
+org.vudroid.core.DocumentViewNew$MyGestureDetector: boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float)
+org.vudroid.core.Page
+org.vudroid.core.Page: int index
+org.vudroid.core.Page: android.graphics.RectF bounds
+org.vudroid.core.Page: android.graphics.Bitmap bitmap
+org.vudroid.core.Page: org.vudroid.core.PageTreeNode node
+org.vudroid.core.Page: org.vudroid.core.DocumentView documentView
+org.vudroid.core.Page: android.graphics.Paint fillPaint
+org.vudroid.core.Page: android.graphics.Paint strokePaint
+org.vudroid.core.Page: java.util.concurrent.locks.ReentrantLock lock
+org.vudroid.core.Page: float aspectRatio
+org.vudroid.core.Page: Page(org.vudroid.core.DocumentView,int)
+org.vudroid.core.Page: void dispose()
+org.vudroid.core.Page: void setBitmap(android.graphics.Bitmap)
+org.vudroid.core.Page: android.graphics.Bitmap getBitmap()
+org.vudroid.core.Page: float getPageHeight(int,float)
+org.vudroid.core.Page: int getTop()
+org.vudroid.core.Page: int getBottom()
+org.vudroid.core.Page: void draw(android.graphics.Canvas)
+org.vudroid.core.Page: android.graphics.Paint strokePaint()
+org.vudroid.core.Page: android.graphics.Paint fillPaint()
+org.vudroid.core.Page: android.text.TextPaint textPaint()
+org.vudroid.core.Page: float getAspectRatio()
+org.vudroid.core.Page: void setAspectRatio(float)
+org.vudroid.core.Page: boolean isVisible()
+org.vudroid.core.Page: void setAspectRatio(int,int)
+org.vudroid.core.Page: void setBounds(android.graphics.RectF)
+org.vudroid.core.Page: void updateVisibility()
+org.vudroid.core.Page: void invalidate()
+org.vudroid.core.PageNew
+org.vudroid.core.PageNew: int index
+org.vudroid.core.PageNew: android.graphics.RectF bounds
+org.vudroid.core.PageNew: android.graphics.Bitmap bitmap
+org.vudroid.core.PageNew: org.vudroid.core.PageTreeNodeNew node
+org.vudroid.core.PageNew: org.vudroid.core.DocumentViewNew documentView
+org.vudroid.core.PageNew: android.graphics.Paint fillPaint
+org.vudroid.core.PageNew: android.graphics.Paint strokePaint
+org.vudroid.core.PageNew: java.util.concurrent.locks.ReentrantLock lock
+org.vudroid.core.PageNew: float aspectRatio
+org.vudroid.core.PageNew: PageNew(org.vudroid.core.DocumentViewNew,int)
+org.vudroid.core.PageNew: void dispose()
+org.vudroid.core.PageNew: void setBitmap(android.graphics.Bitmap)
+org.vudroid.core.PageNew: android.graphics.Bitmap getBitmap()
+org.vudroid.core.PageNew: float getPageHeight(int,float)
+org.vudroid.core.PageNew: int getTop()
+org.vudroid.core.PageNew: int getBottom()
+org.vudroid.core.PageNew: void draw(android.graphics.Canvas)
+org.vudroid.core.PageNew: android.graphics.Paint strokePaint()
+org.vudroid.core.PageNew: android.graphics.Paint fillPaint()
+org.vudroid.core.PageNew: android.text.TextPaint textPaint()
+org.vudroid.core.PageNew: float getAspectRatio()
+org.vudroid.core.PageNew: void setAspectRatio(float)
+org.vudroid.core.PageNew: boolean isVisible()
+org.vudroid.core.PageNew: void setAspectRatio(int,int)
+org.vudroid.core.PageNew: void setBounds(android.graphics.RectF)
+org.vudroid.core.PageNew: void updateVisibility()
+org.vudroid.core.PageNew: void invalidate()
+org.vudroid.core.PageTreeNode
+org.vudroid.core.PageTreeNode: int SLICE_SIZE
+org.vudroid.core.PageTreeNode: android.graphics.Bitmap bitmap
+org.vudroid.core.PageTreeNode: java.lang.ref.SoftReference bitmapWeakReference
+org.vudroid.core.PageTreeNode: boolean decodingNow
+org.vudroid.core.PageTreeNode: android.graphics.RectF pageSliceBounds
+org.vudroid.core.PageTreeNode: org.vudroid.core.Page page
+org.vudroid.core.PageTreeNode: org.vudroid.core.PageTreeNode[] children
+org.vudroid.core.PageTreeNode: int treeNodeDepthLevel
+org.vudroid.core.PageTreeNode: android.graphics.Matrix matrix
+org.vudroid.core.PageTreeNode: android.graphics.Paint bitmapPaint
+org.vudroid.core.PageTreeNode: org.vudroid.core.DocumentView documentView
+org.vudroid.core.PageTreeNode: boolean invalidateFlag
+org.vudroid.core.PageTreeNode: android.graphics.Rect targetRect
+org.vudroid.core.PageTreeNode: android.graphics.RectF targetRectF
+org.vudroid.core.PageTreeNode: PageTreeNode(org.vudroid.core.DocumentView,android.graphics.RectF,org.vudroid.core.Page,int,org.vudroid.core.PageTreeNode)
+org.vudroid.core.PageTreeNode: void updateVisibility()
+org.vudroid.core.PageTreeNode: void invalidate()
+org.vudroid.core.PageTreeNode: void invalidateRecursive()
+org.vudroid.core.PageTreeNode: void invalidateNodeBounds()
+org.vudroid.core.PageTreeNode: void draw(android.graphics.Canvas)
+org.vudroid.core.PageTreeNode: boolean isVisible()
+org.vudroid.core.PageTreeNode: android.graphics.RectF getTargetRectF()
+org.vudroid.core.PageTreeNode: void invalidateChildren()
+org.vudroid.core.PageTreeNode: boolean thresholdHit()
+org.vudroid.core.PageTreeNode: android.graphics.Bitmap getBitmap()
+org.vudroid.core.PageTreeNode: void restoreBitmapReference()
+org.vudroid.core.PageTreeNode: void decodePageTreeNode()
+org.vudroid.core.PageTreeNode: android.graphics.RectF evaluatePageSliceBounds(android.graphics.RectF,org.vudroid.core.PageTreeNode)
+org.vudroid.core.PageTreeNode: void setBitmap(android.graphics.Bitmap)
+org.vudroid.core.PageTreeNode: boolean isDecodingNow()
+org.vudroid.core.PageTreeNode: void setDecodingNow(boolean)
+org.vudroid.core.PageTreeNode: android.graphics.Rect getTargetRect()
+org.vudroid.core.PageTreeNode: void stopDecodingThisNode()
+org.vudroid.core.PageTreeNode: boolean isHiddenByChildren()
+org.vudroid.core.PageTreeNode: void recycleChildren()
+org.vudroid.core.PageTreeNode: boolean containsBitmaps()
+org.vudroid.core.PageTreeNode: boolean childrenContainBitmaps()
+org.vudroid.core.PageTreeNode: void recycle()
+org.vudroid.core.PageTreeNode: boolean isVisibleAndNotHiddenByChildren()
+org.vudroid.core.PageTreeNode: org.vudroid.core.DocumentView access$0(org.vudroid.core.PageTreeNode)
+org.vudroid.core.PageTreeNode: void access$1(org.vudroid.core.PageTreeNode,android.graphics.Bitmap)
+org.vudroid.core.PageTreeNode: void access$2(org.vudroid.core.PageTreeNode,boolean)
+org.vudroid.core.PageTreeNode: void access$3(org.vudroid.core.PageTreeNode,boolean)
+org.vudroid.core.PageTreeNode: org.vudroid.core.Page access$4(org.vudroid.core.PageTreeNode)
+org.vudroid.core.PageTreeNode: void access$5(org.vudroid.core.PageTreeNode)
+org.vudroid.core.PageTreeNode$1
+org.vudroid.core.PageTreeNode$1: org.vudroid.core.PageTreeNode this$0
+org.vudroid.core.PageTreeNode$1: PageTreeNode$1(org.vudroid.core.PageTreeNode)
+org.vudroid.core.PageTreeNode$1: void decodeComplete(android.graphics.Bitmap,float)
+org.vudroid.core.PageTreeNode$1: org.vudroid.core.PageTreeNode access$0(org.vudroid.core.PageTreeNode$1)
+org.vudroid.core.PageTreeNode$1$1
+org.vudroid.core.PageTreeNode$1$1: org.vudroid.core.PageTreeNode$1 this$1
+org.vudroid.core.PageTreeNode$1$1: float val$zoom
+org.vudroid.core.PageTreeNode$1$1: android.graphics.Bitmap val$bitmap
+org.vudroid.core.PageTreeNode$1$1: PageTreeNode$1$1(org.vudroid.core.PageTreeNode$1,float,android.graphics.Bitmap)
+org.vudroid.core.PageTreeNode$1$1: void run()
+org.vudroid.core.PageTreeNodeNew
+org.vudroid.core.PageTreeNodeNew: int SLICE_SIZE
+org.vudroid.core.PageTreeNodeNew: android.graphics.Bitmap bitmap
+org.vudroid.core.PageTreeNodeNew: java.lang.ref.SoftReference bitmapWeakReference
+org.vudroid.core.PageTreeNodeNew: boolean decodingNow
+org.vudroid.core.PageTreeNodeNew: android.graphics.RectF pageSliceBounds
+org.vudroid.core.PageTreeNodeNew: org.vudroid.core.PageNew page
+org.vudroid.core.PageTreeNodeNew: org.vudroid.core.PageTreeNodeNew[] children
+org.vudroid.core.PageTreeNodeNew: int treeNodeDepthLevel
+org.vudroid.core.PageTreeNodeNew: android.graphics.Matrix matrix
+org.vudroid.core.PageTreeNodeNew: android.graphics.Paint bitmapPaint
+org.vudroid.core.PageTreeNodeNew: org.vudroid.core.DocumentViewNew documentView
+org.vudroid.core.PageTreeNodeNew: boolean invalidateFlag
+org.vudroid.core.PageTreeNodeNew: android.graphics.Rect targetRect
+org.vudroid.core.PageTreeNodeNew: android.graphics.RectF targetRectF
+org.vudroid.core.PageTreeNodeNew: PageTreeNodeNew(org.vudroid.core.DocumentViewNew,android.graphics.RectF,org.vudroid.core.PageNew,int,org.vudroid.core.PageTreeNodeNew)
+org.vudroid.core.PageTreeNodeNew: void updateVisibility()
+org.vudroid.core.PageTreeNodeNew: void invalidate()
+org.vudroid.core.PageTreeNodeNew: void invalidateRecursive()
+org.vudroid.core.PageTreeNodeNew: void invalidateNodeBounds()
+org.vudroid.core.PageTreeNodeNew: void draw(android.graphics.Canvas)
+org.vudroid.core.PageTreeNodeNew: boolean isVisible()
+org.vudroid.core.PageTreeNodeNew: android.graphics.RectF getTargetRectF()
+org.vudroid.core.PageTreeNodeNew: void invalidateChildren()
+org.vudroid.core.PageTreeNodeNew: boolean thresholdHit()
+org.vudroid.core.PageTreeNodeNew: android.graphics.Bitmap getBitmap()
+org.vudroid.core.PageTreeNodeNew: void restoreBitmapReference()
+org.vudroid.core.PageTreeNodeNew: void decodePageTreeNode()
+org.vudroid.core.PageTreeNodeNew: android.graphics.RectF evaluatePageSliceBounds(android.graphics.RectF,org.vudroid.core.PageTreeNodeNew)
+org.vudroid.core.PageTreeNodeNew: void setBitmap(android.graphics.Bitmap)
+org.vudroid.core.PageTreeNodeNew: boolean isDecodingNow()
+org.vudroid.core.PageTreeNodeNew: void setDecodingNow(boolean)
+org.vudroid.core.PageTreeNodeNew: android.graphics.Rect getTargetRect()
+org.vudroid.core.PageTreeNodeNew: void stopDecodingThisNode()
+org.vudroid.core.PageTreeNodeNew: boolean isHiddenByChildren()
+org.vudroid.core.PageTreeNodeNew: void recycleChildren()
+org.vudroid.core.PageTreeNodeNew: boolean containsBitmaps()
+org.vudroid.core.PageTreeNodeNew: boolean childrenContainBitmaps()
+org.vudroid.core.PageTreeNodeNew: void recycle()
+org.vudroid.core.PageTreeNodeNew: boolean isVisibleAndNotHiddenByChildren()
+org.vudroid.core.PageTreeNodeNew: org.vudroid.core.DocumentViewNew access$0(org.vudroid.core.PageTreeNodeNew)
+org.vudroid.core.PageTreeNodeNew: void access$1(org.vudroid.core.PageTreeNodeNew,android.graphics.Bitmap)
+org.vudroid.core.PageTreeNodeNew: void access$2(org.vudroid.core.PageTreeNodeNew,boolean)
+org.vudroid.core.PageTreeNodeNew: void access$3(org.vudroid.core.PageTreeNodeNew,boolean)
+org.vudroid.core.PageTreeNodeNew: org.vudroid.core.PageNew access$4(org.vudroid.core.PageTreeNodeNew)
+org.vudroid.core.PageTreeNodeNew: void access$5(org.vudroid.core.PageTreeNodeNew)
+org.vudroid.core.PageTreeNodeNew$1
+org.vudroid.core.PageTreeNodeNew$1: org.vudroid.core.PageTreeNodeNew this$0
+org.vudroid.core.PageTreeNodeNew$1: PageTreeNodeNew$1(org.vudroid.core.PageTreeNodeNew)
+org.vudroid.core.PageTreeNodeNew$1: void decodeComplete(android.graphics.Bitmap,float)
+org.vudroid.core.PageTreeNodeNew$1: org.vudroid.core.PageTreeNodeNew access$0(org.vudroid.core.PageTreeNodeNew$1)
+org.vudroid.core.PageTreeNodeNew$1$1
+org.vudroid.core.PageTreeNodeNew$1$1: org.vudroid.core.PageTreeNodeNew$1 this$1
+org.vudroid.core.PageTreeNodeNew$1$1: float val$zoom
+org.vudroid.core.PageTreeNodeNew$1$1: android.graphics.Bitmap val$bitmap
+org.vudroid.core.PageTreeNodeNew$1$1: PageTreeNodeNew$1$1(org.vudroid.core.PageTreeNodeNew$1,float,android.graphics.Bitmap)
+org.vudroid.core.PageTreeNodeNew$1$1: void run()
+org.vudroid.core.VuDroidLibraryLoader
+org.vudroid.core.VuDroidLibraryLoader: boolean alreadyLoaded
+org.vudroid.core.VuDroidLibraryLoader: void <clinit>()
+org.vudroid.core.VuDroidLibraryLoader: VuDroidLibraryLoader()
+org.vudroid.core.VuDroidLibraryLoader: void load()
+org.vudroid.core.acts.BaseBrowserActivity
+org.vudroid.core.acts.BaseBrowserActivity: org.vudroid.core.acts.BrowserAdapter adapter
+org.vudroid.core.acts.BaseBrowserActivity: java.lang.String CURRENT_DIRECTORY
+org.vudroid.core.acts.BaseBrowserActivity: android.widget.AdapterView$OnItemClickListener onItemClickListener
+org.vudroid.core.acts.BaseBrowserActivity: org.vudroid.core.acts.UriBrowserAdapter recentAdapter
+org.vudroid.core.acts.BaseBrowserActivity: org.vudroid.core.acts.ViewerPreferences viewerPreferences
+org.vudroid.core.acts.BaseBrowserActivity: java.io.FileFilter filter
+org.vudroid.core.acts.BaseBrowserActivity: BaseBrowserActivity()
+org.vudroid.core.acts.BaseBrowserActivity: java.io.FileFilter createFileFilter()
+org.vudroid.core.acts.BaseBrowserActivity: void onCreate(android.os.Bundle)
+org.vudroid.core.acts.BaseBrowserActivity: void onPostCreate(android.os.Bundle)
+org.vudroid.core.acts.BaseBrowserActivity: android.widget.ListView initBrowserListView()
+org.vudroid.core.acts.BaseBrowserActivity: android.widget.ListView initRecentListView()
+org.vudroid.core.acts.BaseBrowserActivity: void showDocument(java.io.File)
+org.vudroid.core.acts.BaseBrowserActivity: void showDocument(android.net.Uri)
+org.vudroid.core.acts.BaseBrowserActivity: void setCurrentDir(java.io.File)
+org.vudroid.core.acts.BaseBrowserActivity: void onSaveInstanceState(android.os.Bundle)
+org.vudroid.core.acts.BaseBrowserActivity: void onResume()
+org.vudroid.core.acts.BaseBrowserActivity: void access$0(org.vudroid.core.acts.BaseBrowserActivity,java.io.File)
+org.vudroid.core.acts.BaseBrowserActivity: void access$1(org.vudroid.core.acts.BaseBrowserActivity,java.io.File)
+org.vudroid.core.acts.BaseBrowserActivity$1
+org.vudroid.core.acts.BaseBrowserActivity$1: org.vudroid.core.acts.BaseBrowserActivity this$0
+org.vudroid.core.acts.BaseBrowserActivity$1: BaseBrowserActivity$1(org.vudroid.core.acts.BaseBrowserActivity)
+org.vudroid.core.acts.BaseBrowserActivity$1: void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+org.vudroid.core.acts.BaseBrowserActivity$2
+org.vudroid.core.acts.BaseBrowserActivity$2: org.vudroid.core.acts.BaseBrowserActivity this$0
+org.vudroid.core.acts.BaseBrowserActivity$2: android.widget.ListView val$browseList
+org.vudroid.core.acts.BaseBrowserActivity$2: BaseBrowserActivity$2(org.vudroid.core.acts.BaseBrowserActivity,android.widget.ListView)
+org.vudroid.core.acts.BaseBrowserActivity$2: android.view.View createTabContent(java.lang.String)
+org.vudroid.core.acts.BaseBrowserActivity$3
+org.vudroid.core.acts.BaseBrowserActivity$3: org.vudroid.core.acts.BaseBrowserActivity this$0
+org.vudroid.core.acts.BaseBrowserActivity$3: android.widget.ListView val$recentListView
+org.vudroid.core.acts.BaseBrowserActivity$3: BaseBrowserActivity$3(org.vudroid.core.acts.BaseBrowserActivity,android.widget.ListView)
+org.vudroid.core.acts.BaseBrowserActivity$3: android.view.View createTabContent(java.lang.String)
+org.vudroid.core.acts.BaseBrowserActivity$4
+org.vudroid.core.acts.BaseBrowserActivity$4: org.vudroid.core.acts.BaseBrowserActivity this$0
+org.vudroid.core.acts.BaseBrowserActivity$4: BaseBrowserActivity$4(org.vudroid.core.acts.BaseBrowserActivity)
+org.vudroid.core.acts.BaseBrowserActivity$4: void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+org.vudroid.core.acts.BasePageViewerActivity
+org.vudroid.core.acts.BasePageViewerActivity: int MENU_EXIT
+org.vudroid.core.acts.BasePageViewerActivity: int MENU_GOTO
+org.vudroid.core.acts.BasePageViewerActivity: int MENU_FULL_SCREEN
+org.vudroid.core.acts.BasePageViewerActivity: int DIALOG_GOTO
+org.vudroid.core.acts.BasePageViewerActivity: java.lang.String DOCUMENT_VIEW_STATE_PREFERENCES
+org.vudroid.core.acts.BasePageViewerActivity: org.vudroid.core.DecodeService decodeService
+org.vudroid.core.acts.BasePageViewerActivity: org.vudroid.core.DocumentViewNew documentView
+org.vudroid.core.acts.BasePageViewerActivity: org.vudroid.core.acts.ViewerPreferences viewerPreferences
+org.vudroid.core.acts.BasePageViewerActivity: android.widget.Toast pageNumberToast
+org.vudroid.core.acts.BasePageViewerActivity: org.vudroid.core.models.CurrentPageModel currentPageModel
+org.vudroid.core.acts.BasePageViewerActivity: android.content.Intent intent
+org.vudroid.core.acts.BasePageViewerActivity: android.widget.EditText editText
+org.vudroid.core.acts.BasePageViewerActivity: BasePageViewerActivity()
+org.vudroid.core.acts.BasePageViewerActivity: void onCreate(android.os.Bundle)
+org.vudroid.core.acts.BasePageViewerActivity: void onWindowFocusChanged(boolean)
+org.vudroid.core.acts.BasePageViewerActivity: void onConfigurationChanged(android.content.res.Configuration)
+org.vudroid.core.acts.BasePageViewerActivity: void decodingProgressChanged(int)
+org.vudroid.core.acts.BasePageViewerActivity: void currentPageChanged(int)
+org.vudroid.core.acts.BasePageViewerActivity: void setWindowTitle()
+org.vudroid.core.acts.BasePageViewerActivity: void onPostCreate(android.os.Bundle)
+org.vudroid.core.acts.BasePageViewerActivity: void setFullScreen()
+org.vudroid.core.acts.BasePageViewerActivity: org.vudroid.core.views.PageViewZoomControls createZoomControls(org.vudroid.core.models.ZoomModel)
+org.vudroid.core.acts.BasePageViewerActivity: android.widget.FrameLayout createMainContainer()
+org.vudroid.core.acts.BasePageViewerActivity: void initDecodeService()
+org.vudroid.core.acts.BasePageViewerActivity: org.vudroid.core.DecodeService createDecodeService()
+org.vudroid.core.acts.BasePageViewerActivity: void onStop()
+org.vudroid.core.acts.BasePageViewerActivity: void onDestroy()
+org.vudroid.core.acts.BasePageViewerActivity: void saveCurrentPage()
+org.vudroid.core.acts.BasePageViewerActivity: boolean onCreateOptionsMenu(android.view.Menu)
+org.vudroid.core.acts.BasePageViewerActivity: void setFullScreenMenuItemText(android.view.MenuItem)
+org.vudroid.core.acts.BasePageViewerActivity: boolean onOptionsItemSelected(android.view.MenuItem)
+org.vudroid.core.acts.BasePageViewerActivity: org.vudroid.core.DocumentViewNew access$0(org.vudroid.core.acts.BasePageViewerActivity)
+org.vudroid.core.acts.BasePageViewerActivity: android.widget.EditText access$1(org.vudroid.core.acts.BasePageViewerActivity)
+org.vudroid.core.acts.BasePageViewerActivity$1
+org.vudroid.core.acts.BasePageViewerActivity$1: org.vudroid.core.acts.BasePageViewerActivity this$0
+org.vudroid.core.acts.BasePageViewerActivity$1: int val$currentlyDecoding
+org.vudroid.core.acts.BasePageViewerActivity$1: BasePageViewerActivity$1(org.vudroid.core.acts.BasePageViewerActivity,int)
+org.vudroid.core.acts.BasePageViewerActivity$1: void run()
+org.vudroid.core.acts.BasePageViewerActivity$MyButtonHandler
+org.vudroid.core.acts.BasePageViewerActivity$MyButtonHandler: org.vudroid.core.acts.BasePageViewerActivity this$0
+org.vudroid.core.acts.BasePageViewerActivity$MyButtonHandler: BasePageViewerActivity$MyButtonHandler(org.vudroid.core.acts.BasePageViewerActivity)
+org.vudroid.core.acts.BasePageViewerActivity$MyButtonHandler: void onClick(android.view.View)
+org.vudroid.core.acts.BasePageViewerActivity$MyButtonHandler: BasePageViewerActivity$MyButtonHandler(org.vudroid.core.acts.BasePageViewerActivity,org.vudroid.core.acts.BasePageViewerActivity$MyButtonHandler)
+org.vudroid.core.acts.BaseViewerActivity
+org.vudroid.core.acts.BaseViewerActivity: int MENU_EXIT
+org.vudroid.core.acts.BaseViewerActivity: int MENU_GOTO
+org.vudroid.core.acts.BaseViewerActivity: int MENU_FULL_SCREEN
+org.vudroid.core.acts.BaseViewerActivity: int DIALOG_GOTO
+org.vudroid.core.acts.BaseViewerActivity: java.lang.String DOCUMENT_VIEW_STATE_PREFERENCES
+org.vudroid.core.acts.BaseViewerActivity: org.vudroid.core.DecodeService decodeService
+org.vudroid.core.acts.BaseViewerActivity: org.vudroid.core.DocumentView documentView
+org.vudroid.core.acts.BaseViewerActivity: org.vudroid.core.acts.ViewerPreferences viewerPreferences
+org.vudroid.core.acts.BaseViewerActivity: android.widget.Toast pageNumberToast
+org.vudroid.core.acts.BaseViewerActivity: org.vudroid.core.models.CurrentPageModel currentPageModel
+org.vudroid.core.acts.BaseViewerActivity: android.content.Intent intent
+org.vudroid.core.acts.BaseViewerActivity: BaseViewerActivity()
+org.vudroid.core.acts.BaseViewerActivity: void onCreate(android.os.Bundle)
+org.vudroid.core.acts.BaseViewerActivity: void onConfigurationChanged(android.content.res.Configuration)
+org.vudroid.core.acts.BaseViewerActivity: void decodingProgressChanged(int)
+org.vudroid.core.acts.BaseViewerActivity: void currentPageChanged(int)
+org.vudroid.core.acts.BaseViewerActivity: void setWindowTitle()
+org.vudroid.core.acts.BaseViewerActivity: void onPostCreate(android.os.Bundle)
+org.vudroid.core.acts.BaseViewerActivity: void setFullScreen()
+org.vudroid.core.acts.BaseViewerActivity: org.vudroid.core.views.PageViewZoomControls createZoomControls(org.vudroid.core.models.ZoomModel)
+org.vudroid.core.acts.BaseViewerActivity: android.widget.FrameLayout createMainContainer()
+org.vudroid.core.acts.BaseViewerActivity: void initDecodeService()
+org.vudroid.core.acts.BaseViewerActivity: org.vudroid.core.DecodeService createDecodeService()
+org.vudroid.core.acts.BaseViewerActivity: void onStop()
+org.vudroid.core.acts.BaseViewerActivity: void onDestroy()
+org.vudroid.core.acts.BaseViewerActivity: void saveCurrentPage()
+org.vudroid.core.acts.BaseViewerActivity: boolean onCreateOptionsMenu(android.view.Menu)
+org.vudroid.core.acts.BaseViewerActivity: void setFullScreenMenuItemText(android.view.MenuItem)
+org.vudroid.core.acts.BaseViewerActivity: boolean onOptionsItemSelected(android.view.MenuItem)
+org.vudroid.core.acts.BaseViewerActivity: org.vudroid.core.DocumentView access$0(org.vudroid.core.acts.BaseViewerActivity)
+org.vudroid.core.acts.BaseViewerActivity$1
+org.vudroid.core.acts.BaseViewerActivity$1: org.vudroid.core.acts.BaseViewerActivity this$0
+org.vudroid.core.acts.BaseViewerActivity$1: int val$currentlyDecoding
+org.vudroid.core.acts.BaseViewerActivity$1: BaseViewerActivity$1(org.vudroid.core.acts.BaseViewerActivity,int)
+org.vudroid.core.acts.BaseViewerActivity$1: void run()
+org.vudroid.core.acts.BaseViewerActivity$MyButtonHandler
+org.vudroid.core.acts.BaseViewerActivity$MyButtonHandler: org.vudroid.core.acts.BaseViewerActivity this$0
+org.vudroid.core.acts.BaseViewerActivity$MyButtonHandler: BaseViewerActivity$MyButtonHandler(org.vudroid.core.acts.BaseViewerActivity)
+org.vudroid.core.acts.BaseViewerActivity$MyButtonHandler: void onClick(android.view.View)
+org.vudroid.core.acts.BaseViewerActivity$MyButtonHandler: BaseViewerActivity$MyButtonHandler(org.vudroid.core.acts.BaseViewerActivity,org.vudroid.core.acts.BaseViewerActivity$MyButtonHandler)
+org.vudroid.core.acts.BrowserAdapter
+org.vudroid.core.acts.BrowserAdapter: android.content.Context context
+org.vudroid.core.acts.BrowserAdapter: java.io.File currentDirectory
+org.vudroid.core.acts.BrowserAdapter: java.util.List files
+org.vudroid.core.acts.BrowserAdapter: java.io.FileFilter filter
+org.vudroid.core.acts.BrowserAdapter: BrowserAdapter(android.content.Context,java.io.FileFilter)
+org.vudroid.core.acts.BrowserAdapter: int getCount()
+org.vudroid.core.acts.BrowserAdapter: java.io.File getItem(int)
+org.vudroid.core.acts.BrowserAdapter: long getItemId(int)
+org.vudroid.core.acts.BrowserAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)
+org.vudroid.core.acts.BrowserAdapter: void setCurrentDirectory(java.io.File)
+org.vudroid.core.acts.BrowserAdapter: void setFiles(java.util.List)
+org.vudroid.core.acts.BrowserAdapter: java.io.File getCurrentDirectory()
+org.vudroid.core.acts.BrowserAdapter: java.lang.Object getItem(int)
+org.vudroid.core.acts.BrowserAdapter$1
+org.vudroid.core.acts.BrowserAdapter$1: org.vudroid.core.acts.BrowserAdapter this$0
+org.vudroid.core.acts.BrowserAdapter$1: BrowserAdapter$1(org.vudroid.core.acts.BrowserAdapter)
+org.vudroid.core.acts.BrowserAdapter$1: int compare(java.io.File,java.io.File)
+org.vudroid.core.acts.BrowserAdapter$1: int compare(java.lang.Object,java.lang.Object)
+org.vudroid.core.acts.MainBrowserActivity
+org.vudroid.core.acts.MainBrowserActivity: java.util.HashMap extensionToActivity
+org.vudroid.core.acts.MainBrowserActivity: void <clinit>()
+org.vudroid.core.acts.MainBrowserActivity: MainBrowserActivity()
+org.vudroid.core.acts.MainBrowserActivity: java.io.FileFilter createFileFilter()
+org.vudroid.core.acts.MainBrowserActivity: void showDocument(android.net.Uri)
+org.vudroid.core.acts.MainBrowserActivity: java.util.HashMap access$0()
+org.vudroid.core.acts.MainBrowserActivity$1
+org.vudroid.core.acts.MainBrowserActivity$1: org.vudroid.core.acts.MainBrowserActivity this$0
+org.vudroid.core.acts.MainBrowserActivity$1: MainBrowserActivity$1(org.vudroid.core.acts.MainBrowserActivity)
+org.vudroid.core.acts.MainBrowserActivity$1: boolean accept(java.io.File)
+org.vudroid.core.acts.PdfViewerActivity
+org.vudroid.core.acts.PdfViewerActivity: PdfViewerActivity()
+org.vudroid.core.acts.PdfViewerActivity: org.vudroid.core.DecodeService createDecodeService()
+org.vudroid.core.acts.UriBrowserAdapter
+org.vudroid.core.acts.UriBrowserAdapter: java.util.List uris
+org.vudroid.core.acts.UriBrowserAdapter: UriBrowserAdapter()
+org.vudroid.core.acts.UriBrowserAdapter: int getCount()
+org.vudroid.core.acts.UriBrowserAdapter: android.net.Uri getItem(int)
+org.vudroid.core.acts.UriBrowserAdapter: long getItemId(int)
+org.vudroid.core.acts.UriBrowserAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)
+org.vudroid.core.acts.UriBrowserAdapter: void setUris(java.util.List)
+org.vudroid.core.acts.UriBrowserAdapter: java.lang.Object getItem(int)
+org.vudroid.core.acts.ViewerPreferences
+org.vudroid.core.acts.ViewerPreferences: android.content.SharedPreferences sharedPreferences
+org.vudroid.core.acts.ViewerPreferences: java.lang.String FULL_SCREEN
+org.vudroid.core.acts.ViewerPreferences: ViewerPreferences(android.content.Context)
+org.vudroid.core.acts.ViewerPreferences: void setFullScreen(boolean)
+org.vudroid.core.acts.ViewerPreferences: boolean isFullScreen()
+org.vudroid.core.acts.ViewerPreferences: void addRecent(android.net.Uri)
+org.vudroid.core.acts.ViewerPreferences: java.util.List getRecent()
+org.vudroid.core.codec.CodecContext
+org.vudroid.core.codec.CodecContext: org.vudroid.core.codec.CodecDocument openDocument(java.lang.String)
+org.vudroid.core.codec.CodecContext: void setContentResolver(android.content.ContentResolver)
+org.vudroid.core.codec.CodecContext: void recycle()
+org.vudroid.core.codec.CodecDocument
+org.vudroid.core.codec.CodecDocument: org.vudroid.core.codec.CodecPage getPage(int)
+org.vudroid.core.codec.CodecDocument: int getPageCount()
+org.vudroid.core.codec.CodecDocument: void recycle()
+org.vudroid.core.codec.CodecPage
+org.vudroid.core.codec.CodecPage: boolean isDecoding()
+org.vudroid.core.codec.CodecPage: void waitForDecode()
+org.vudroid.core.codec.CodecPage: int getWidth()
+org.vudroid.core.codec.CodecPage: int getHeight()
+org.vudroid.core.codec.CodecPage: android.graphics.Bitmap renderBitmap(int,int,android.graphics.RectF)
+org.vudroid.core.codec.CodecPage: void recycle()
+org.vudroid.core.events.BringUpZoomControlsEvent
+org.vudroid.core.events.BringUpZoomControlsEvent: BringUpZoomControlsEvent()
+org.vudroid.core.events.BringUpZoomControlsEvent: void dispatchSafely(org.vudroid.core.events.BringUpZoomControlsListener)
+org.vudroid.core.events.BringUpZoomControlsEvent: void dispatchSafely(java.lang.Object)
+org.vudroid.core.events.BringUpZoomControlsListener
+org.vudroid.core.events.BringUpZoomControlsListener: void toggleZoomControls()
+org.vudroid.core.events.CurrentPageListener
+org.vudroid.core.events.CurrentPageListener: void currentPageChanged(int)
+org.vudroid.core.events.CurrentPageListener$CurrentPageChangedEvent
+org.vudroid.core.events.CurrentPageListener$CurrentPageChangedEvent: int pageIndex
+org.vudroid.core.events.CurrentPageListener$CurrentPageChangedEvent: CurrentPageListener$CurrentPageChangedEvent(int)
+org.vudroid.core.events.CurrentPageListener$CurrentPageChangedEvent: void dispatchSafely(org.vudroid.core.events.CurrentPageListener)
+org.vudroid.core.events.CurrentPageListener$CurrentPageChangedEvent: void dispatchSafely(java.lang.Object)
+org.vudroid.core.events.DecodingProgressListener
+org.vudroid.core.events.DecodingProgressListener: void decodingProgressChanged(int)
+org.vudroid.core.events.DecodingProgressListener$DecodingProgressEvent
+org.vudroid.core.events.DecodingProgressListener$DecodingProgressEvent: int currentlyDecoding
+org.vudroid.core.events.DecodingProgressListener$DecodingProgressEvent: DecodingProgressListener$DecodingProgressEvent(int)
+org.vudroid.core.events.DecodingProgressListener$DecodingProgressEvent: void dispatchSafely(org.vudroid.core.events.DecodingProgressListener)
+org.vudroid.core.events.DecodingProgressListener$DecodingProgressEvent: void dispatchSafely(java.lang.Object)
+org.vudroid.core.events.Event
+org.vudroid.core.events.Event: void dispatchOn(java.lang.Object)
+org.vudroid.core.events.EventDispatcher
+org.vudroid.core.events.EventDispatcher: java.util.ArrayList listeners
+org.vudroid.core.events.EventDispatcher: EventDispatcher()
+org.vudroid.core.events.EventDispatcher: void dispatch(org.vudroid.core.events.Event)
+org.vudroid.core.events.EventDispatcher: void addEventListener(java.lang.Object)
+org.vudroid.core.events.EventDispatcher: void removeEventListener(java.lang.Object)
+org.vudroid.core.events.SafeEvent
+org.vudroid.core.events.SafeEvent: java.lang.Class listenerType
+org.vudroid.core.events.SafeEvent: SafeEvent()
+org.vudroid.core.events.SafeEvent: java.lang.Class getListenerType()
+org.vudroid.core.events.SafeEvent: void dispatchOn(java.lang.Object)
+org.vudroid.core.events.SafeEvent: void dispatchSafely(java.lang.Object)
+org.vudroid.core.events.ZoomChangedEvent
+org.vudroid.core.events.ZoomChangedEvent: float newZoom
+org.vudroid.core.events.ZoomChangedEvent: float oldZoom
+org.vudroid.core.events.ZoomChangedEvent: ZoomChangedEvent(float,float)
+org.vudroid.core.events.ZoomChangedEvent: void dispatchSafely(org.vudroid.core.events.ZoomListener)
+org.vudroid.core.events.ZoomChangedEvent: void dispatchSafely(java.lang.Object)
+org.vudroid.core.events.ZoomListener
+org.vudroid.core.events.ZoomListener: void zoomChanged(float,float)
+org.vudroid.core.events.ZoomListener: void commitZoom()
+org.vudroid.core.events.ZoomListener$CommitZoomEvent
+org.vudroid.core.events.ZoomListener$CommitZoomEvent: ZoomListener$CommitZoomEvent()
+org.vudroid.core.events.ZoomListener$CommitZoomEvent: void dispatchSafely(org.vudroid.core.events.ZoomListener)
+org.vudroid.core.events.ZoomListener$CommitZoomEvent: void dispatchSafely(java.lang.Object)
+org.vudroid.core.models.CurrentPageModel
+org.vudroid.core.models.CurrentPageModel: int currentPageIndex
+org.vudroid.core.models.CurrentPageModel: CurrentPageModel()
+org.vudroid.core.models.CurrentPageModel: void setCurrentPageIndex(int)
+org.vudroid.core.models.DecodingProgressModel
+org.vudroid.core.models.DecodingProgressModel: int currentlyDecoding
+org.vudroid.core.models.DecodingProgressModel: DecodingProgressModel()
+org.vudroid.core.models.DecodingProgressModel: void increase()
+org.vudroid.core.models.DecodingProgressModel: void dispatchChanged()
+org.vudroid.core.models.DecodingProgressModel: void decrease()
+org.vudroid.core.models.ZoomModel
+org.vudroid.core.models.ZoomModel: float zoom
+org.vudroid.core.models.ZoomModel: float INCREMENT_DELTA
+org.vudroid.core.models.ZoomModel: boolean horizontalScrollEnabled
+org.vudroid.core.models.ZoomModel: boolean isCommited
+org.vudroid.core.models.ZoomModel: ZoomModel()
+org.vudroid.core.models.ZoomModel: void setZoom(float)
+org.vudroid.core.models.ZoomModel: void setZoomNoDispatch(float)
+org.vudroid.core.models.ZoomModel: float getZoom()
+org.vudroid.core.models.ZoomModel: void increaseZoom()
+org.vudroid.core.models.ZoomModel: void decreaseZoom()
+org.vudroid.core.models.ZoomModel: void toggleZoomControls()
+org.vudroid.core.models.ZoomModel: void setHorizontalScrollEnabled(boolean)
+org.vudroid.core.models.ZoomModel: boolean isHorizontalScrollEnabled()
+org.vudroid.core.models.ZoomModel: boolean canDecrement()
+org.vudroid.core.models.ZoomModel: void commit()
+org.vudroid.core.multitouch.MultiTouchZoom
+org.vudroid.core.multitouch.MultiTouchZoom: boolean onTouchEvent(android.view.MotionEvent)
+org.vudroid.core.multitouch.MultiTouchZoom: boolean isResetLastPointAfterZoom()
+org.vudroid.core.multitouch.MultiTouchZoom: void setResetLastPointAfterZoom(boolean)
+org.vudroid.core.multitouch.MultiTouchZoomImpl
+org.vudroid.core.multitouch.MultiTouchZoomImpl: org.vudroid.core.models.ZoomModel zoomModel
+org.vudroid.core.multitouch.MultiTouchZoomImpl: boolean resetLastPointAfterZoom
+org.vudroid.core.multitouch.MultiTouchZoomImpl: float lastZoomDistance
+org.vudroid.core.multitouch.MultiTouchZoomImpl: MultiTouchZoomImpl(org.vudroid.core.models.ZoomModel)
+org.vudroid.core.multitouch.MultiTouchZoomImpl: boolean onTouchEvent(android.view.MotionEvent)
+org.vudroid.core.multitouch.MultiTouchZoomImpl: float getZoomDistance(android.view.MotionEvent)
+org.vudroid.core.multitouch.MultiTouchZoomImpl: boolean isResetLastPointAfterZoom()
+org.vudroid.core.multitouch.MultiTouchZoomImpl: void setResetLastPointAfterZoom(boolean)
+org.vudroid.core.views.PageViewZoomControls
+org.vudroid.core.views.PageViewZoomControls: PageViewZoomControls(android.content.Context,org.vudroid.core.models.ZoomModel)
+org.vudroid.core.views.PageViewZoomControls: boolean onTouchEvent(android.view.MotionEvent)
+org.vudroid.core.views.PageViewZoomControls: void toggleZoomControls()
+org.vudroid.core.views.PageViewZoomControls: void show()
+org.vudroid.core.views.PageViewZoomControls: void hide()
+org.vudroid.core.views.PageViewZoomControls: void fade(int,float,float)
+org.vudroid.core.views.ZoomRoll
+org.vudroid.core.views.ZoomRoll: android.graphics.Bitmap left
+org.vudroid.core.views.ZoomRoll: android.graphics.Bitmap right
+org.vudroid.core.views.ZoomRoll: android.graphics.Bitmap center
+org.vudroid.core.views.ZoomRoll: android.graphics.Bitmap serifs
+org.vudroid.core.views.ZoomRoll: android.view.VelocityTracker velocityTracker
+org.vudroid.core.views.ZoomRoll: android.widget.Scroller scroller
+org.vudroid.core.views.ZoomRoll: float lastX
+org.vudroid.core.views.ZoomRoll: int MAX_VALUE
+org.vudroid.core.views.ZoomRoll: org.vudroid.core.models.ZoomModel zoomModel
+org.vudroid.core.views.ZoomRoll: float MULTIPLIER
+org.vudroid.core.views.ZoomRoll: ZoomRoll(android.content.Context,org.vudroid.core.models.ZoomModel)
+org.vudroid.core.views.ZoomRoll: void onMeasure(int,int)
+org.vudroid.core.views.ZoomRoll: void draw(android.graphics.Canvas)
+org.vudroid.core.views.ZoomRoll: boolean onTouchEvent(android.view.MotionEvent)
+org.vudroid.core.views.ZoomRoll: void computeScroll()
+org.vudroid.core.views.ZoomRoll: float getCurrentValue()
+org.vudroid.core.views.ZoomRoll: void setCurrentValue(float)
+org.vudroid.pdfdroid.codec.PdfContext
+org.vudroid.pdfdroid.codec.PdfContext: void <clinit>()
+org.vudroid.pdfdroid.codec.PdfContext: PdfContext()
+org.vudroid.pdfdroid.codec.PdfContext: org.vudroid.core.codec.CodecDocument openDocument(java.lang.String)
+org.vudroid.pdfdroid.codec.PdfContext: void setContentResolver(android.content.ContentResolver)
+org.vudroid.pdfdroid.codec.PdfContext: void recycle()
+org.vudroid.pdfdroid.codec.PdfDocument
+org.vudroid.pdfdroid.codec.PdfDocument: long docHandle
+org.vudroid.pdfdroid.codec.PdfDocument: int FITZMEMORY
+org.vudroid.pdfdroid.codec.PdfDocument: PdfDocument(long)
+org.vudroid.pdfdroid.codec.PdfDocument: org.vudroid.core.codec.CodecPage getPage(int)
+org.vudroid.pdfdroid.codec.PdfDocument: int getPageCount()
+org.vudroid.pdfdroid.codec.PdfDocument: org.vudroid.pdfdroid.codec.PdfDocument openDocument(java.lang.String,java.lang.String)
+org.vudroid.pdfdroid.codec.PdfDocument: long open(int,java.lang.String,java.lang.String)
+org.vudroid.pdfdroid.codec.PdfDocument: void free(long)
+org.vudroid.pdfdroid.codec.PdfDocument: int getPageCount(long)
+org.vudroid.pdfdroid.codec.PdfDocument: void finalize()
+org.vudroid.pdfdroid.codec.PdfDocument: void recycle()
+org.vudroid.pdfdroid.codec.PdfPage
+org.vudroid.pdfdroid.codec.PdfPage: long pageHandle
+org.vudroid.pdfdroid.codec.PdfPage: long docHandle
+org.vudroid.pdfdroid.codec.PdfPage: PdfPage(long,long)
+org.vudroid.pdfdroid.codec.PdfPage: boolean isDecoding()
+org.vudroid.pdfdroid.codec.PdfPage: void waitForDecode()
+org.vudroid.pdfdroid.codec.PdfPage: int getWidth()
+org.vudroid.pdfdroid.codec.PdfPage: int getHeight()
+org.vudroid.pdfdroid.codec.PdfPage: android.graphics.Bitmap renderBitmap(int,int,android.graphics.RectF)
+org.vudroid.pdfdroid.codec.PdfPage: org.vudroid.pdfdroid.codec.PdfPage createPage(long,int)
+org.vudroid.pdfdroid.codec.PdfPage: void finalize()
+org.vudroid.pdfdroid.codec.PdfPage: void recycle()
+org.vudroid.pdfdroid.codec.PdfPage: android.graphics.RectF getMediaBox()
+org.vudroid.pdfdroid.codec.PdfPage: android.graphics.Bitmap render(android.graphics.Rect,android.graphics.Matrix)
+org.vudroid.pdfdroid.codec.PdfPage: void getMediaBox(long,float[])
+org.vudroid.pdfdroid.codec.PdfPage: void free(long)
+org.vudroid.pdfdroid.codec.PdfPage: long open(long,int)
+org.vudroid.pdfdroid.codec.PdfPage: void renderPage(long,long,int[],float[],int[])

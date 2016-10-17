@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+<declare-styleable name="AdView">
+<!-- 广告背景色 -->
+<attr name="backColor" format="color|reference" />
+<!-- 广告小文本颜色,针对纯文字广告的小字体 -->
+<!-- 背景透明度(0~255),0为全透明,255为不透明,默认不透明 -->
+<attr name="backAlpha" format="integer|reference" />
+<!-- 标题文本颜色 -->
+<attr name="titleColor" format="color|reference"/>
+</declare-styleable>
+
+    <!-- These are the attributes that we want to retrieve from the theme
+         in app/PreferencesFromCode.java -->
+    <declare-styleable name="TogglePrefAttrs">
+        <attr name="android:preferenceLayoutChild" />
+    </declare-styleable>
+    
+    <!-- These are the attributes that we want to retrieve from the theme
+         in view/Gallery1.java -->
+    <declare-styleable name="Gallery1">
+        <attr name="android:galleryItemBackground" />
+
+    </declare-styleable>
+    	<declare-styleable name="PageCurlView">
+		<!-- Enable/Disable debug mode -->
+		<attr name="enableDebugMode" format="boolean" />
+		<!-- Curl speed  the animation moves in px/frame -->
+		<attr name="curlSpeed" format="integer" />		
+		<!-- FPS our animation will run -->
+		<attr name="updateRate" format="integer" />		
+		<!-- Pixel offset the page will have from the curl edge -->
+		<attr name="initialEdgeOffset" format="integer" />
+		<!-- The curl mode to apply -->
+		<attr name="curlMode">
+			<enum name="Simple" value="0" />
+			<enum name="Dynamic" value="1" />
+		</attr>
+	</declare-styleable>
+		<declare-styleable name="cn.domob.android.ads.DomobAdView"> 
+    	<attr name="backgroundColor" format="color" />
+    	<attr name="primaryTextColor" format="color" />
+    	<attr name="keywords" format="string" />
+    	<attr name="spots" format="string" />
+    	<attr name="refreshInterval" format="integer" />
+    </declare-styleable>
+	<color name="all_white">#FFFFFF</color>
+	<color name="all_black">#000000</color>
+	<color name="listbg">#e7ecef</color>
+	<color name="listselect">#007ae1</color>
+</resources>

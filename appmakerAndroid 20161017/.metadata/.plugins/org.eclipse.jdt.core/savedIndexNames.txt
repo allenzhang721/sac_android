@@ -1,0 +1,10 @@
+INDEX VERSION 1.127+D:\Workspace\appmakerAndroid 20150413\appmakerAndroid 20150413\.metadata\.plugins\org.eclipse.jdt.core
+1356944014.index
+3815150378.index
+2742788985.index
+1513515904.index
+3839730585.index
+2965802747.index
+961247772.index
+745901095.index
+3283909837.index

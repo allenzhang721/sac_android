@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <RelativeLayout 
+	android:id="@+id/pdf_toolbarnew"
+    android:layout_width="match_parent"
+  	android:layout_height="wrap_content"
+    >
+    <Button 
+    android:id="@+id/btn_prevnew"
+	android:layout_width="wrap_content"
+	android:layout_height="30sp"
+	android:gravity="center"
+	android:textColor="@drawable/black"
+	android:textSize="12sp"
+	android:text="Prev"
+    />
+    <Button 
+    android:id="@+id/btn_nextnew"
+	android:layout_width="wrap_content"
+	android:layout_height="30sp"
+	android:layout_toRightOf="@id/btn_prevnew"
+	android:gravity="center"
+	android:textColor="@drawable/black"
+	android:textSize="12sp"
+	android:text="Next"
+    />
+
+     <Button
+         android:id="@+id/backnew"
+         android:layout_width="wrap_content"
+         android:layout_height="30sp"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:gravity="center"
+         android:text="back"
+         android:textColor="@drawable/black"
+         android:textSize="12sp" />
+
+     <EditText
+         android:id="@+id/pagenumber"
+         android:layout_width="50sp"
+         android:layout_height="30sp"
+         android:layout_alignParentTop="true"
+         android:layout_centerVertical="true"
+         android:layout_toRightOf="@+id/btn_nextnew"
+         android:gravity="center"
+         android:textSize="12sp"
+         android:inputType="number" >
+	
+         <requestFocus />
+     </EditText>
+
+     <Button
+         android:id="@+id/gotopage"
+         android:layout_width="wrap_content"
+         android:layout_height="30sp"
+         android:layout_alignParentTop="true"
+         android:layout_toRightOf="@+id/pagenumber"
+         android:gravity="center"
+         android:textSize="12sp"
+         android:text="go" />
+
+     <Button
+         android:id="@+id/testButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/gotopage"
+         android:layout_alignParentTop="true"
+         android:layout_toRightOf="@+id/gotopage"
+         android:text="Button" />
+
+    </RelativeLayout>
+    
+    <org.vudroid.core.DocumentViewNew
+		android:id="@+id/pdf_viewnew"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/pdf_toolbarnew"
+	  />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_api_key">UA-34661383-9</string>
+    <string name="ga_debug">true</string>
+    <string name="ga_dryRun">false</string>
+    <string name="ga_anonymizeIp">false</string>
+    <string name="ga_sampleRate">100</string>
+    <string name="ga_dispatchPeriod">60</string>
+    <string name="ga_auto_activity_tracking">false</string>
+</resources>

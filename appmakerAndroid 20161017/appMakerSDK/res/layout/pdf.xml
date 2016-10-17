@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <RelativeLayout 
+	android:id="@+id/pdf_toolbar"
+    android:layout_width="match_parent"
+  	android:layout_height="wrap_content"
+    >
+    <Button 
+    android:id="@+id/btn_prev"
+	android:layout_width="wrap_content"
+	android:layout_height="30sp"
+	android:gravity="center"
+	android:textColor="@drawable/black"
+	android:textSize="12sp"
+	android:text="Prev"
+    />
+    <Button 
+    android:id="@+id/btn_next"
+	android:layout_width="wrap_content"
+	android:layout_height="30sp"
+	android:layout_toRightOf="@id/btn_prev"
+	android:gravity="center"
+	android:textColor="@drawable/black"
+	android:textSize="12sp"
+	android:text="Next"
+    />
+     <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:gravity="center"
+        android:layout_toRightOf="@id/btn_next"
+        android:textColor="@drawable/black"
+        android:textSize="12sp"
+        android:text="back" />
+    </RelativeLayout>
+    
+    <org.vudroid.core.DocumentView
+		android:id="@+id/pdf_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/pdf_toolbar"
+	  />
+
+
+
+</RelativeLayout>

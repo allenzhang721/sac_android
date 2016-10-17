@@ -1,0 +1,11 @@
+# view AndroidManifest.xml #generated:51
+-keep class com.hl.android.HLActivity { <init>(...); }
+
+# view land\res/layout-land/pdf.xml #generated:42
+# view port\res/layout-port/pdf.xml #generated:43
+# view res/layout/pdf.xml #generated:42
+-keep class org.vudroid.core.DocumentView { <init>(...); }
+
+# view res/layout/pdfpage.xml #generated:78
+-keep class org.vudroid.core.DocumentViewNew { <init>(...); }
+

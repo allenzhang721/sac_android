@@ -1,0 +1,21 @@
+package com.hl.android.view.component;
+
+public class Behavior {
+	public final static String BEHAVIOR_ON_SHOW = "BEHAVIOR_ON_SHOW";
+	public final static String BEHAVIRO_ON_AUDIO_VIDEO_PLAY = "BEHAVIRO_ON_AUDIO_VIDEO_PLAY";
+	public final static String BEHAVIOR_ON_AUDIO_VIDEO_END = "BEHAVIOR_ON_AUDIO_VIDEO_END";
+	public final static String BEHAVIOR_ON_HIDE = "BEHAVIOR_ON_HIDE";
+	public final static String BEHAVIOR_ON_ANIMATION_PLAY = "BEHAVIOR_ON_ANIMATION_PLAY";
+	public final static String BEHAVIOR_ON_ANIMATION_END = "BEHAVIOR_ON_ANIMATION_END";
+	
+
+	public final static String BEHAVIOR_ON_ANIMATION_PLAY_AT = "BEHAVIOR_ON_ANIMATION_PLAY_AT";
+	public final static String BEHAVIOR_ON_ANIMATION_END_AT = "BEHAVIOR_ON_ANIMATION_END_AT";
+	
+	public final static String BEHAVIOR_ON_CLICK = "BEHAVIOR_ON_CLICK";
+	public final static String BEHAVIOR_ON_TEMPLATE_ITEM_CLICK = "BEHAVIOR_ON_TEMPLATE_ITEM_CLICK";
+	public final static String BEHAVIOR_ON_CLICK_UP = "BEHAVIOR_ON_CLICK_UP";
+	public final static String BEHAVIOR_ON_MOUSE_DOWN = "BEHAVIOR_ON_MOUSE_DOWN";
+	public final static String BEHAVIOR_ON_TEMPLATE_ITEM_CHANGE_BEGIN = "BEHAVIOR_ON_TEMPLATE_ITEM_CHANGE_BEGIN";
+	public final static String BEHAVIOR_ON_TEMPLATE_ITEM_CHANGE_COMPLETE = "BEHAVIOR_ON_TEMPLATE_ITEM_CHANGE_COMPLETE";
+}

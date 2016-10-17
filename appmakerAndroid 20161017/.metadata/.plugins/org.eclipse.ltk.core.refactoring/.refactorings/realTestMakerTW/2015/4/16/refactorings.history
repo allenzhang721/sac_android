@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;realTestMakerTW&apos;&#x0D;&#x0A;- Original project: &apos;realTestMakerTW&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     realTestMakerTW/gen/com.google.android.gms&#x0D;&#x0A;     realTestMakerTW/gen/com.hl.android&#x0D;&#x0A;     realTestMakerTW/gen/com.hl.common&#x0D;&#x0A;     realTestMakerTW/gen/com.hl.realtestTW2" description="Delete elements" element1="/gen&lt;com.hl.realtestTW2" element10="/gen&lt;com" element2="/gen&lt;com.hl" element3="/gen&lt;com.hl.common" element4="/gen&lt;com.hl" element5="/gen&lt;com.hl.android" element6="/gen&lt;com.hl" element7="/gen&lt;com.google.android.gms" element8="/gen&lt;com.google.android" element9="/gen&lt;com.google" elements="10" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1429076673036" subPackages="false" version="1.0"/>
+</session>
